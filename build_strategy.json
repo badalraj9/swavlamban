@@ -1,0 +1,54 @@
+{
+  "project_name": "SWARM-01",
+  "operational_philosophy": {
+    "paradigm": "Self-verifying, checkpoint-driven",
+    "checkpoint_interval_minutes": 15,
+    "principles": [
+      "Checkpoint-Driven Development",
+      "Adversarial Self-Testing",
+      "Emergent Architecture",
+      "Synthetic Data Generation"
+    ]
+  },
+  "constraints": {
+    "bandwidth_limit_kbps": 64,
+    "max_cycle_time_ms": 100,
+    "max_election_time_seconds": 10,
+    "task_stability_convergence_time_seconds": 60,
+    "task_stability_threshold_percent": 95,
+    "min_score": 0.7
+  },
+  "architecture": {
+    "style": "Distributed Agent Swarm",
+    "communication_pattern": "Asynchronous Message Passing",
+    "agent_isolation": "Multiprocessing",
+    "language": "Python 3.10+",
+    "components": [
+      "Agent: State Machine (Follower, Candidate, Leader)",
+      "Simulator: Message Bus, Clock Sync, Environment",
+      "Evaluator: Scoring Metrics"
+    ]
+  },
+  "resource_budget": {
+    "agents_count": 30,
+    "messages_per_second_est": 50,
+    "message_size_limit_bytes": 128,
+    "cpu_budget_per_cycle_ms": 100
+  },
+  "risk_analysis": {
+    "highest_risk": "Gate 1: Leader Election < 10s",
+    "mitigation_strategy": "Implement Bully Algorithm first. If latency/bandwidth exceeds limits, switch to randomized timeouts or token ring.",
+    "secondary_risk": "Gate 2: Task Consensus Stability",
+    "mitigation_strategy": "CBAA (Consensus-Based Auction Algorithm) with adaptive rebidding."
+  },
+  "plan": {
+    "phases": [
+      "Phase 0: Planning (Current)",
+      "Phase 1: MVS (Skeleton, Simulator, Integration Test)",
+      "Phase 2: Gates (Election, Tasking, Resilience, Perf)",
+      "Phase 3: Scenarios (Optimization)",
+      "Phase 4: Hardening (Chaos)",
+      "Deliverables"
+    ]
+  }
+}
