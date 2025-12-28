@@ -2,6 +2,7 @@ import time
 import logging
 from enum import Enum
 from src.utils.message import Message
+import statistics
 
 class AgentState(Enum):
     FOLLOWER = "FOLLOWER"
@@ -19,6 +20,8 @@ class BaseAgent:
         self.logger = logging.getLogger(f"Agent-{self.agent_id}")
         logging.basicConfig(level=logging.INFO)
 
+        self.cycle_times = []
+
     def run(self):
         """Main loop."""
         while self.running:
@@ -27,8 +30,18 @@ class BaseAgent:
             self.update_state()
             self.execute_tasks()
 
-            # 10Hz throttle
+            # Record cycle time
             elapsed = time.time() - start_time
+            self.cycle_times.append(elapsed)
+
+            # Log metrics every 100 cycles
+            if len(self.cycle_times) >= 100:
+                p99 = statistics.quantiles(self.cycle_times, n=100)[98] # 99th percentile
+                self.logger.info(f"PERF: P99={p99*1000:.2f}ms Max={max(self.cycle_times)*1000:.2f}ms")
+                self.cycle_times = []
+
+            # 10Hz throttle
+            # We already measured elapsed, so sleep remainder
             sleep_time = max(0, 0.1 - elapsed)
             time.sleep(sleep_time)
 
