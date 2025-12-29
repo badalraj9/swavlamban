@@ -2100,3 +2100,1146 @@
 2025-12-29 19:07:34,989 - Agent-1 - INFO - Declaring victory. I am the leader.
 2025-12-29 19:07:34,990 - Agent-2 - INFO - Declaring victory. I am the leader.
 2025-12-29 19:07:34,994 - Agent-4 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:18:41,077 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:41,081 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:42,147 - Agent-9 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:18:42,279 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,285 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,295 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,301 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,312 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,317 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,335 - Agent-7 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,337 - Agent-6 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,338 - Agent-8 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:18:42,667 - Simulator - INFO - Killed Agent 9
+2025-12-29 19:18:44,183 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:44,284 - Agent-0 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,290 - Agent-1 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,300 - Agent-3 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,306 - Agent-2 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,317 - Agent-4 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,321 - Agent-5 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,339 - Agent-7 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,341 - Agent-6 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:44,342 - Agent-8 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:18:45,243 - Agent-8 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:18:45,286 - Agent-0 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,292 - Agent-1 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,300 - Agent-3 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,307 - Agent-2 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,318 - Agent-4 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,322 - Agent-5 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,339 - Agent-7 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,342 - Agent-6 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,343 - Agent-8 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:18:45,386 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,392 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,400 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,407 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,418 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,422 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,440 - Agent-7 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,442 - Agent-6 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 19:18:45,703 - Simulator - INFO - Killed Agent 8
+2025-12-29 19:18:47,390 - Agent-0 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,396 - Agent-1 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,405 - Agent-3 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,411 - Agent-2 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,422 - Agent-4 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,426 - Agent-5 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,443 - Agent-7 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:47,446 - Agent-6 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:18:48,994 - Agent-0 - INFO - PERF: P99=5.50ms Max=5.52ms
+2025-12-29 19:18:49,000 - Agent-1 - INFO - PERF: P99=13.13ms Max=13.22ms
+2025-12-29 19:18:49,008 - Agent-3 - INFO - PERF: P99=9.31ms Max=9.35ms
+2025-12-29 19:18:49,015 - Agent-2 - INFO - PERF: P99=12.37ms Max=12.46ms
+2025-12-29 19:18:49,026 - Agent-4 - INFO - PERF: P99=12.27ms Max=12.34ms
+2025-12-29 19:18:49,029 - Agent-5 - INFO - PERF: P99=11.70ms Max=11.76ms
+2025-12-29 19:18:49,046 - Agent-7 - INFO - PERF: P99=7.23ms Max=7.24ms
+2025-12-29 19:18:49,049 - Agent-6 - INFO - PERF: P99=11.80ms Max=11.86ms
+2025-12-29 19:18:49,295 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:50,349 - Agent-7 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:18:50,498 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,503 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,511 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,518 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,529 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,532 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,552 - Agent-6 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 19:18:50,767 - Simulator - INFO - Killed Agent 7
+2025-12-29 19:18:52,502 - Agent-0 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:52,506 - Agent-1 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:52,515 - Agent-3 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:52,521 - Agent-2 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:52,533 - Agent-4 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:52,535 - Agent-5 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:52,556 - Agent-6 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:18:54,406 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:54,409 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:54,419 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:55,461 - Agent-6 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:18:55,609 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:18:55,612 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:18:55,622 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:18:55,627 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:18:55,639 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:18:55,640 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:18:55,828 - Simulator - INFO - Killed Agent 6
+2025-12-29 19:18:57,613 - Agent-0 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:18:57,615 - Agent-1 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:18:57,626 - Agent-3 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:18:57,631 - Agent-2 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:18:57,643 - Agent-4 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:18:57,644 - Agent-5 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:18:59,017 - Agent-0 - INFO - PERF: P99=0.69ms Max=0.70ms
+2025-12-29 19:18:59,018 - Agent-1 - INFO - PERF: P99=0.98ms Max=0.98ms
+2025-12-29 19:18:59,029 - Agent-3 - INFO - PERF: P99=1.10ms Max=1.10ms
+2025-12-29 19:18:59,033 - Agent-2 - INFO - PERF: P99=0.67ms Max=0.67ms
+2025-12-29 19:18:59,046 - Agent-4 - INFO - PERF: P99=1.07ms Max=1.07ms
+2025-12-29 19:18:59,046 - Agent-5 - INFO - PERF: P99=0.96ms Max=0.97ms
+2025-12-29 19:18:59,518 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:18:59,519 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:00,548 - Agent-5 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:00,721 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 19:19:00,721 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 19:19:00,732 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 19:19:00,737 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 19:19:00,749 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 19:19:00,892 - Simulator - INFO - Killed Agent 5
+2025-12-29 19:19:02,725 - Agent-1 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:02,725 - Agent-0 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:02,736 - Agent-3 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:02,741 - Agent-2 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:02,753 - Agent-4 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:04,629 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:04,629 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:05,659 - Agent-4 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:05,832 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:05,832 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:05,842 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:05,847 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:07,967 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:07,968 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:07,969 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:07,970 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:07,972 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:07,975 - Agent-5 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:07,976 - Agent-6 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:08,988 - Agent-9 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:09,177 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:09,179 - Agent-6 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:09,182 - Agent-7 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:09,185 - Agent-8 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:10,984 - Agent-7 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 19:19:10,985 - Agent-7 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 19:19:10,985 - Agent-7 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 19:19:10,985 - Agent-7 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 19:19:10,985 - Agent-7 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 19:19:10,988 - Agent-8 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 19:19:10,988 - Agent-8 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 19:19:10,988 - Agent-8 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 19:19:10,988 - Agent-8 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 19:19:10,988 - Agent-8 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 19:19:10,991 - Agent-9 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 19:19:10,991 - Agent-9 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 19:19:10,992 - Agent-9 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 19:19:10,992 - Agent-9 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 19:19:10,992 - Agent-9 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:11,074 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:11,074 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:11,074 - Agent-0 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-0 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-0 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-1 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-0 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-2 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-0 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-2 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-1 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:19:11,074 - Agent-2 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:19:11,075 - Agent-1 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:19:11,075 - Agent-2 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:19:11,075 - Agent-1 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:19:11,075 - Agent-1 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:19:11,075 - Agent-2 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:19:11,076 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:11,076 - Agent-3 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:11,076 - Agent-3 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:19:11,076 - Agent-3 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:19:11,076 - Agent-3 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:19:11,076 - Agent-3 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:19:11,078 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:11,078 - Agent-4 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 19:19:11,078 - Agent-4 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 19:19:11,078 - Agent-4 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 19:19:11,078 - Agent-4 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 19:19:11,078 - Agent-4 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 19:19:11,081 - Agent-5 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 19:19:11,081 - Agent-5 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 19:19:11,081 - Agent-5 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 19:19:11,081 - Agent-5 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 19:19:11,081 - Agent-5 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 19:19:11,082 - Agent-6 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 19:19:11,082 - Agent-6 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 19:19:11,082 - Agent-6 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 19:19:11,082 - Agent-6 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 19:19:11,082 - Agent-6 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 19:19:12,079 - Agent-4 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:12,176 - Agent-2 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:12,176 - Agent-0 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:12,176 - Agent-1 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:12,178 - Agent-3 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:12,179 - Agent-4 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:12,276 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:12,276 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:12,276 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:12,278 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:19:15,884 - Agent-0 - INFO - PERF: P99=3.49ms Max=3.49ms
+2025-12-29 19:19:15,884 - Agent-2 - INFO - PERF: P99=3.27ms Max=3.27ms
+2025-12-29 19:19:15,884 - Agent-1 - INFO - PERF: P99=3.44ms Max=3.45ms
+2025-12-29 19:19:15,884 - Agent-3 - INFO - PERF: P99=3.46ms Max=3.47ms
+2025-12-29 19:19:15,887 - Agent-4 - INFO - PERF: P99=3.42ms Max=3.43ms
+2025-12-29 19:19:15,890 - Agent-6 - INFO - PERF: P99=3.45ms Max=3.46ms
+2025-12-29 19:19:15,890 - Agent-5 - INFO - PERF: P99=3.44ms Max=3.44ms
+2025-12-29 19:19:15,894 - Agent-7 - INFO - PERF: P99=3.28ms Max=3.28ms
+2025-12-29 19:19:15,898 - Agent-8 - INFO - PERF: P99=3.31ms Max=3.33ms
+2025-12-29 19:19:15,900 - Agent-9 - INFO - PERF: P99=5.13ms Max=5.15ms
+2025-12-29 19:19:23,564 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:23,566 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:23,665 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,665 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,666 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,666 - Agent-0 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,668 - Agent-1 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,669 - Agent-2 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,671 - Agent-3 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,673 - Agent-4 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,678 - Agent-7 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,678 - Agent-6 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,680 - Agent-5 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,682 - Agent-9 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,684 - Agent-8 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:19:23,764 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,765 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,766 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,767 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,767 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,767 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,767 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,768 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,768 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,768 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,768 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,768 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,769 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,769 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,770 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,770 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,770 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,772 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,772 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,772 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,772 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,772 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,777 - Agent-7 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,777 - Agent-7 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,777 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,777 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,777 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,777 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,777 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,778 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,778 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,778 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,778 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,778 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,780 - Agent-9 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,782 - Agent-8 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,865 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,865 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,865 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,866 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,867 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,867 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,868 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,868 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,868 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,869 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,869 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,869 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,872 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,872 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,872 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,876 - Agent-7 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,877 - Agent-7 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,877 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,877 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,878 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,878 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,878 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,878 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:23,878 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,878 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,878 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,880 - Agent-9 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,880 - Agent-9 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:23,883 - Agent-8 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:23,883 - Agent-8 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:24,778 - Agent-7 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:24,781 - Agent-9 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:24,784 - Agent-8 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:24,867 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,867 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,867 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,869 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,869 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,869 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,870 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,871 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,871 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,871 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,871 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,871 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,874 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,874 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,875 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,878 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,878 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,879 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,879 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,879 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,880 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,880 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,880 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,882 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,882 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,884 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,884 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,967 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,967 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,967 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,969 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,969 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,970 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,971 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,971 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,971 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,971 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,971 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,971 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,974 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,974 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,975 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,978 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,978 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,979 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,979 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,979 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,979 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,980 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:24,980 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,982 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,982 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:24,984 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:24,985 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,468 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,468 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,469 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,470 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,470 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,470 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,472 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,472 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,472 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,472 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,472 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,472 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,475 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,476 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,476 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,479 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,479 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,480 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,480 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,480 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,480 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,481 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,481 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,483 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,483 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,485 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,486 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,969 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,969 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,970 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,971 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,971 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,971 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,973 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,973 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,973 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,973 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,973 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,973 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,976 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,976 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,976 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,980 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,980 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,981 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,981 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,981 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,981 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,982 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:25,982 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,984 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,984 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:25,986 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:25,986 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,470 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,471 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,471 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,472 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,472 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,472 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,474 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,474 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,474 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,474 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,474 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,474 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,477 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,477 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,478 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,481 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,481 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,482 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,482 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,482 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,482 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,482 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,482 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,484 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,485 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,487 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,487 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,971 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,972 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,972 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,973 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,973 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,973 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,974 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,974 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,974 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,975 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,975 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,975 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,978 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,978 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,978 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,982 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,982 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,982 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,983 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,983 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,983 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,983 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:26,983 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,985 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,986 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:26,988 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:26,988 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,472 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,473 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,473 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,474 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,474 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,474 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,475 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,475 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,475 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,475 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,476 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,476 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,479 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,479 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,479 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,483 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,483 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,483 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,484 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,484 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,484 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,484 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,484 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,486 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,486 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,489 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,489 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,673 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,674 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,676 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,676 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,679 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,684 - Agent-6 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,684 - Agent-5 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:27,773 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,774 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,775 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,775 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,777 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,777 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,777 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,777 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,780 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,780 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,873 - Agent-0 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,875 - Agent-1 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,876 - Agent-3 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,876 - Agent-2 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,879 - Agent-4 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,884 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,884 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,884 - Agent-6 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,885 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 19:19:27,885 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 19:19:27,885 - Agent-5 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 19:19:27,973 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,974 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,974 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,975 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,975 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,975 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,976 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,976 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,976 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,976 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,976 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,977 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,980 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,980 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,980 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,983 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,984 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,984 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,984 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,984 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,985 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,985 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:27,985 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,987 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,987 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:27,989 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:27,990 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,390 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,474 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,475 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,475 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,475 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,476 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,476 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,477 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,477 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,477 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,477 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,478 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,478 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,480 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,481 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,481 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,484 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,484 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,485 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,485 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,485 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,485 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,486 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,486 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,487 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,488 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,490 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,685 - Agent-6 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:28,785 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,786 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,875 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,876 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,877 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,878 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,881 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,885 - Agent-7 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,885 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,886 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 19:19:28,975 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,976 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,976 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,976 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,977 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,977 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,977 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,978 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,978 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,978 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,978 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,979 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,981 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,981 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,981 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,985 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,985 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,986 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,986 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,986 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,986 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,986 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,986 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,986 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:28,986 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,988 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,988 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:28,991 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:28,991 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,389 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,392 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,476 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,477 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,477 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,477 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,478 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,478 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,478 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,478 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,478 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,479 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,479 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,480 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,482 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,482 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,482 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,486 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,486 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,486 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,487 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,487 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,487 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,487 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,487 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,487 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,487 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,487 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,489 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,492 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,978 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,978 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,978 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,978 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,979 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,979 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,979 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,979 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,979 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,980 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,980 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,980 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,983 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,983 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,983 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,987 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,987 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,987 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,987 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,987 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,988 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,988 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,988 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,988 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,988 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:29,988 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,990 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,990 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:29,993 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:29,993 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,394 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,479 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,479 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,479 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,479 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,480 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,480 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,480 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,480 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,480 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,481 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,481 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,481 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,483 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,483 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,484 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,488 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,488 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,488 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,488 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,488 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,489 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,489 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,489 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,489 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,489 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,489 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,491 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,491 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,493 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,980 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,980 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,980 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,980 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,980 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,981 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,981 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,981 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,981 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,982 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,982 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,982 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,984 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,984 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,984 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,988 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,988 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,989 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,989 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,989 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,989 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,989 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,989 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,990 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:30,990 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,990 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,991 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,992 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:30,994 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:30,994 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,395 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,395 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,481 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,481 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,481 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,481 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,481 - Agent-0 - INFO - PERF: P99=5.00ms Max=5.00ms
+2025-12-29 19:19:31,481 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,482 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,482 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,482 - Agent-1 - INFO - PERF: P99=4.16ms Max=4.16ms
+2025-12-29 19:19:31,482 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,482 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,482 - Agent-3 - INFO - PERF: P99=5.29ms Max=5.31ms
+2025-12-29 19:19:31,482 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,483 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,483 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,483 - Agent-2 - INFO - PERF: P99=4.38ms Max=4.39ms
+2025-12-29 19:19:31,485 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,485 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,486 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,486 - Agent-4 - INFO - PERF: P99=7.60ms Max=7.63ms
+2025-12-29 19:19:31,489 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,489 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,490 - Agent-7 - INFO - PERF: P99=4.24ms Max=4.24ms
+2025-12-29 19:19:31,490 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,490 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,490 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,490 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,490 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,490 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,490 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,490 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,490 - Agent-6 - INFO - PERF: P99=5.11ms Max=5.11ms
+2025-12-29 19:19:31,491 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,491 - Agent-5 - INFO - PERF: P99=5.86ms Max=5.88ms
+2025-12-29 19:19:31,492 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,492 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,493 - Agent-9 - INFO - PERF: P99=5.01ms Max=5.02ms
+2025-12-29 19:19:31,495 - Agent-8 - INFO - PERF: P99=4.06ms Max=4.06ms
+2025-12-29 19:19:31,894 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,896 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,982 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,982 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,983 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,983 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,983 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,983 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,983 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,983 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,983 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,983 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,984 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,984 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,986 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,987 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,987 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,990 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,991 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,991 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,991 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,991 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,991 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,991 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,991 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:31,991 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,991 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:31,992 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,993 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:31,996 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,391 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,391 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,397 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,397 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,483 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,483 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,483 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,483 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,484 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,484 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,484 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,484 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,484 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,484 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,484 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,484 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,487 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,487 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,488 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,491 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,491 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,491 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,492 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,492 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,492 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,492 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,492 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,492 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,494 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,494 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,984 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,984 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,984 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,984 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,984 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,984 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,985 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,985 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,985 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,985 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,985 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,985 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,988 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,988 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,988 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,992 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,992 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,992 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,992 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,992 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,993 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,993 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,993 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,993 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,993 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:32,993 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,995 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,995 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:32,998 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:32,998 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,396 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,399 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,485 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,485 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,485 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,485 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,486 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,486 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,486 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,486 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,486 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,486 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,486 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,486 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,489 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,489 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,489 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,492 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,492 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,493 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,493 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,493 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,493 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,493 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,493 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,494 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,494 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,494 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,495 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,499 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,893 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,986 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,986 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,986 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,986 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,986 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,986 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,986 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,987 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,987 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,987 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,987 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,987 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,990 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,990 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,990 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,993 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,993 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,994 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,994 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,994 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,994 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,994 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,994 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,994 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:33,994 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,996 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:33,996 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:33,999 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,000 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,400 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,487 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,487 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,487 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,487 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,487 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,487 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,487 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,487 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,487 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,487 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,487 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,488 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,490 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,490 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,491 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,494 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,494 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,494 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,494 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,494 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,495 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,495 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,495 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,495 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,495 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,495 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,497 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,497 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,500 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,988 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,988 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,988 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,988 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,988 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,988 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,988 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,988 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,988 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,988 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,988 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,988 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,991 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,991 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,991 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,995 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,995 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,995 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,995 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,995 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,995 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,995 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,996 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,996 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,996 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:34,996 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:34,998 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:34,998 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,001 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,001 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,402 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,489 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,489 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,489 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,489 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,489 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,489 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,489 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,489 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,489 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,489 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,489 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,489 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,492 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,492 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,492 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,495 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,496 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,496 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,496 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,496 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,496 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,496 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,496 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,496 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,496 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,497 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,498 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,499 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,502 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,990 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,990 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,990 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,990 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,990 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,990 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,990 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,990 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,990 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,990 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,990 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,990 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,992 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,993 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,993 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,996 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,996 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,996 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,997 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,997 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,997 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,997 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,997 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,997 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,997 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:35,997 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:35,999 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:35,999 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,003 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,003 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,403 - Agent-8 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,491 - Agent-3 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,491 - Agent-0 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,491 - Agent-2 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,491 - Agent-1 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,491 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,491 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,491 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,491 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,491 - Agent-2 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,491 - Agent-0 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,491 - Agent-3 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,491 - Agent-1 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,493 - Agent-4 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,493 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,494 - Agent-4 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,497 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,497 - Agent-7 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,497 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,497 - Agent-6 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,497 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,498 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,498 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,498 - Agent-5 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,498 - Agent-6 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,498 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:36,498 - Agent-5 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,500 - Agent-9 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 19:19:36,500 - Agent-9 - WARNING - SECURITY: Stale term 4 < 9999 from 8. Ignoring.
+2025-12-29 19:19:36,503 - Agent-8 - WARNING - SECURITY: Stale term 4 < 9999 from 9. Ignoring.
+2025-12-29 19:19:38,599 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:38,599 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:38,600 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:38,603 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:19:39,610 - Agent-9 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:19:39,801 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,801 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,802 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,805 - Agent-4 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,807 - Agent-5 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,807 - Agent-6 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,809 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,811 - Agent-7 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:39,817 - Agent-8 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 19:19:46,515 - Agent-0 - INFO - PERF: P99=7.06ms Max=7.06ms
+2025-12-29 19:19:46,515 - Agent-2 - INFO - PERF: P99=8.42ms Max=8.45ms
+2025-12-29 19:19:46,515 - Agent-1 - INFO - PERF: P99=6.99ms Max=6.99ms
+2025-12-29 19:19:46,516 - Agent-4 - INFO - PERF: P99=8.02ms Max=8.04ms
+2025-12-29 19:19:46,517 - Agent-6 - INFO - PERF: P99=7.03ms Max=7.05ms
+2025-12-29 19:19:46,519 - Agent-5 - INFO - PERF: P99=4.89ms Max=4.89ms
+2025-12-29 19:19:46,519 - Agent-3 - INFO - PERF: P99=6.54ms Max=6.55ms
+2025-12-29 19:19:46,520 - Agent-9 - INFO - PERF: P99=5.39ms Max=5.39ms
+2025-12-29 19:19:46,522 - Agent-7 - INFO - PERF: P99=5.30ms Max=5.31ms
+2025-12-29 19:19:46,527 - Agent-8 - INFO - PERF: P99=7.04ms Max=7.06ms
+2025-12-29 19:19:56,533 - Agent-4 - INFO - PERF: P99=1.53ms Max=1.54ms
+2025-12-29 19:19:56,533 - Agent-2 - INFO - PERF: P99=1.49ms Max=1.49ms
+2025-12-29 19:19:56,534 - Agent-0 - INFO - PERF: P99=1.35ms Max=1.35ms
+2025-12-29 19:19:56,534 - Agent-1 - INFO - PERF: P99=1.29ms Max=1.29ms
+2025-12-29 19:19:56,534 - Agent-6 - INFO - PERF: P99=1.26ms Max=1.26ms
+2025-12-29 19:19:56,534 - Agent-9 - INFO - PERF: P99=1.34ms Max=1.35ms
+2025-12-29 19:19:56,535 - Agent-3 - INFO - PERF: P99=1.30ms Max=1.30ms
+2025-12-29 19:19:56,535 - Agent-5 - INFO - PERF: P99=1.32ms Max=1.32ms
+2025-12-29 19:19:56,536 - Agent-7 - INFO - PERF: P99=1.28ms Max=1.29ms
+2025-12-29 19:19:56,542 - Agent-8 - INFO - PERF: P99=1.42ms Max=1.42ms
+2025-12-29 19:20:06,552 - Agent-0 - INFO - PERF: P99=2.15ms Max=2.15ms
+2025-12-29 19:20:06,552 - Agent-1 - INFO - PERF: P99=2.02ms Max=2.03ms
+2025-12-29 19:20:06,552 - Agent-2 - INFO - PERF: P99=2.67ms Max=2.67ms
+2025-12-29 19:20:06,553 - Agent-9 - INFO - PERF: P99=2.32ms Max=2.32ms
+2025-12-29 19:20:06,553 - Agent-6 - INFO - PERF: P99=1.41ms Max=1.41ms
+2025-12-29 19:20:06,553 - Agent-5 - INFO - PERF: P99=1.56ms Max=1.56ms
+2025-12-29 19:20:06,554 - Agent-4 - INFO - PERF: P99=1.29ms Max=1.30ms
+2025-12-29 19:20:06,554 - Agent-7 - INFO - PERF: P99=1.46ms Max=1.46ms
+2025-12-29 19:20:06,554 - Agent-3 - INFO - PERF: P99=1.40ms Max=1.40ms
+2025-12-29 19:20:06,559 - Agent-8 - INFO - PERF: P99=1.50ms Max=1.51ms
+2025-12-29 19:20:08,637 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:08,638 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:08,639 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:08,641 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:08,641 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:09,643 - Agent-4 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:09,839 - Agent-0 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:20:09,840 - Agent-1 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:20:09,841 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:20:09,843 - Agent-3 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:20:12,170 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:12,172 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:12,173 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:12,174 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:12,176 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:13,178 - Agent-4 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:15,213 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:15,214 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:15,215 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:15,217 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:15,219 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:16,216 - Agent-2 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:16,220 - Agent-4 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:16,316 - Agent-0 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:20:16,316 - Agent-2 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:20:16,317 - Agent-1 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:20:16,319 - Agent-3 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:20:16,321 - Agent-4 - INFO - STATE: ENTERING DEGRADED OPERATIONS MODE
+2025-12-29 19:20:16,416 - Agent-2 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 19:20:18,743 - Agent-0 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:18,743 - Agent-1 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:18,745 - Agent-2 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:18,747 - Agent-3 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:18,747 - Agent-4 - INFO - Leader timed out. Starting election.
+2025-12-29 19:20:19,744 - Agent-0 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:19,746 - Agent-2 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:19,748 - Agent-3 - INFO - Declaring victory. I am the leader.
+2025-12-29 19:20:19,749 - Agent-4 - INFO - Declaring victory. I am the leader.
