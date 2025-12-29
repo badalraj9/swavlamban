@@ -52,7 +52,29 @@ We implemented a "Lightweight Legitimacy" layer to address the discovered vulner
 | **UUID + Term Binding** | **Primary Defense**. Each leader generates a random `boot_uuid` and a monotonic `term`. Followers bind the Leader ID to this UUID. If the UUID changes (spoofing) or term regresses (replay), the message is rejected. |
 | **Coordinator Rate-Limit** | Honest agents ignore excessive coordinator claims from the same ID, neutralizing spam attacks. |
 
-## 5. Known Limitations
+## 5. Operational Doctrine Alignment
+
+This section details how the system complies with Indian Navy operational philosophy, prioritizing mission continuity and disciplined behavior under stress.
+
+### Mission Continuity Over Optimality
+In scenarios of command instability (e.g., frequent leader elections or "storms"), the swarm enters a **Mission Continuity Mode**.
+-   **Behavior**: It freezes task assignments to prevent thrashing and suppresses new election attempts unless the leader completely disappears.
+-   **Rationale**: It is better to execute a sub-optimal plan reliably than to continuously re-optimize without action.
+
+### Explicit Degraded Operations Handling
+The system explicitly tracks its operational state (`NORMAL` vs `DEGRADED`).
+-   **Trigger**: High instability or packet loss enters `DEGRADED` mode.
+-   **Response**: Agents adopt a conservative posture, refraining from aggressive bidding and minimizing network chatter.
+-   **Logging**: Transitions are explicitly logged (`STATE: ENTERING DEGRADED OPERATIONS MODE`) to ensure situational awareness.
+
+### Restrained Leadership Authority
+Leadership is treated as advisory rather than absolute during degraded states.
+-   **Local Safety**: Agents verify capability matches and deadline feasibility before accepting tasks.
+-   **Refusal**: Agents may silently refuse tasking if it violates safety constraints or occurs during a degraded state, preventing blind obedience to potentially compromised or unstable commands.
+
+The swarm encodes naval doctrine by continuing operations under degraded command rather than aggressively re-optimizing.
+
+## 6. Known Limitations
 
 -   **Crash Recovery**: The system assumes stable execution epochs. If a leader crashes and restarts, it generates a new UUID. Followers will treat this as a new entity. While this ensures security against spoofing, it may require a new election cycle to fully re-establish authority.
 -   **Persistent Identity**: Persistent identity across hard reboots is outside the scope of this submission. We prioritize the security of the *current* mission over state preservation across power cycles.

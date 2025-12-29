@@ -1,4 +1,4 @@
-from src.agents.base_agent import BaseAgent, AgentState
+from src.agents.base_agent import BaseAgent, AgentState, OperationalMode
 from src.utils.message import Message
 import time
 import uuid
@@ -18,8 +18,36 @@ class BullyAgent(BaseAgent):
         self.term = 0
         self.known_leaders = {} # id -> {"uuid": uuid, "last_claim": time, "term": term}
 
+        # Mission Continuity State
+        self.leader_changes = [] # list of timestamps
+        self.instability_threshold = 2 # changes
+        self.instability_window = 15.0 # seconds
+        self.stability_reset_time = 30.0 # seconds
+
     def update_state(self):
         current_time = time.time()
+
+        # Operational Mode Logic
+        # 1. Prune old changes
+        self.leader_changes = [t for t in self.leader_changes if current_time - t <= self.instability_window]
+
+        # 2. Check Instability
+        is_unstable = len(self.leader_changes) >= self.instability_threshold
+
+        if is_unstable:
+            if self.mode != OperationalMode.DEGRADED:
+                self.mode = OperationalMode.DEGRADED
+                self.logger.info("STATE: ENTERING DEGRADED OPERATIONS MODE")
+                # Adjust params for degraded mode
+                self.coordinator_timeout = 4.0 # Suppress elections (doubled)
+        else:
+            # Check exit condition: Stable for >= 30s
+            last_change = self.leader_changes[-1] if self.leader_changes else 0
+            if self.mode == OperationalMode.DEGRADED:
+                if current_time - last_change > self.stability_reset_time:
+                    self.mode = OperationalMode.NORMAL
+                    self.logger.info("STATE: RETURNING TO NORMAL OPERATIONS MODE")
+                    self.coordinator_timeout = 2.0 # Restore
 
         # Check leader timeout
         if self.state == AgentState.FOLLOWER:
@@ -70,6 +98,10 @@ class BullyAgent(BaseAgent):
             "term": self.term
         }
         self.send_message(-1, "COORDINATOR", content)
+        # Self-elected leader change logic? No, only track changes when we accept *others*.
+        # Or should we track our own change?
+        # If I become leader, it IS a change.
+        self.leader_changes.append(time.time())
 
     def handle_message(self, msg: Message):
         if msg.msg_type in ["ELECTION", "ANSWER", "COORDINATOR"]:
@@ -88,24 +120,13 @@ class BullyAgent(BaseAgent):
                 if sender_id in self.known_leaders:
                     record = self.known_leaders[sender_id]
 
-                    # 1. Term Check (Stale Leader)
-                    # Reject only if strictly LESS than known (and UUID matches)
-                    # If Term is HIGHER, it implies new election/state, so we accept (and update UUID if needed)
-                    # But we must verify UUID consistency if term is same or less?
-
-                    # Improved Logic:
-                    # If msg_term > record["term"]: Accept (New Term) -> Updates record
-                    # If msg_term < record["term"]: Reject (Stale)
-                    # If msg_term == record["term"]: Check UUID & Rate
-
                     if msg_term > record["term"]:
-                        # Accept new term (allows reboot or new election to supersede)
+                        # Accept new term
                         pass
                     elif msg_term < record["term"]:
                         self.logger.warning(f"SECURITY: Stale term {msg_term} < {record['term']} from {sender_id}. Ignoring.")
                         return
                     else:
-                        # Terms equal: Check UUID and Rate
                         if record["uuid"] and msg_uuid and record["uuid"] != msg_uuid:
                             self.logger.warning(f"SECURITY: UUID mismatch for Agent {sender_id}. Ignoring.")
                             return
@@ -120,6 +141,10 @@ class BullyAgent(BaseAgent):
                     "last_claim": current_time,
                     "term": msg_term
                 }
+
+                # Stability Tracking
+                if self.leader_id != sender_id:
+                    self.leader_changes.append(current_time)
 
             if msg.msg_type == "ELECTION":
                 if self.agent_id > sender_id:

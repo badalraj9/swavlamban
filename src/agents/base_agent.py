@@ -9,6 +9,10 @@ class AgentState(Enum):
     CANDIDATE = "CANDIDATE"
     LEADER = "LEADER"
 
+class OperationalMode(Enum):
+    NORMAL = "NORMAL"
+    DEGRADED = "DEGRADED"
+
 class BaseAgent:
     def __init__(self, agent_id: int, incoming_queue, outgoing_queue):
         self.agent_id = agent_id
@@ -21,6 +25,10 @@ class BaseAgent:
         logging.basicConfig(level=logging.INFO)
 
         self.cycle_times = []
+
+        # Operational Doctrine State
+        self.mode = OperationalMode.NORMAL
+        self.last_mode_log = 0.0
 
     def run(self):
         """Main loop."""
