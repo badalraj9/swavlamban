@@ -1,0 +1,1377 @@
+2025-12-29 16:26:58,289 - INFO - Leader timed out. Starting election.
+2025-12-29 16:26:59,355 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:26:59,469 - INFO - Killed Agent 9
+2025-12-29 16:26:59,495 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,501 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,504 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,508 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,509 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,512 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,526 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,530 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:26:59,545 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:01,399 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:01,406 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:01,500 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,509 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,516 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,516 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,517 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,517 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,532 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,535 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:01,552 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:02,454 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:02,510 - INFO - Killed Agent 8
+2025-12-29 16:27:04,511 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:04,512 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,518 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:04,519 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,526 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,527 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,528 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,529 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,541 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:04,546 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:05,546 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:05,714 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:05,723 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:05,729 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:05,730 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:05,733 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:05,734 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:05,746 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:27:06,048 - INFO - Killed Agent 7
+2025-12-29 16:27:06,215 - INFO - PERF: P99=19.56ms Max=19.70ms
+2025-12-29 16:27:06,230 - INFO - PERF: P99=74.19ms Max=74.85ms
+2025-12-29 16:27:06,234 - INFO - PERF: P99=53.12ms Max=53.56ms
+2025-12-29 16:27:06,247 - INFO - PERF: P99=52.33ms Max=52.79ms
+2025-12-29 16:27:06,325 - INFO - PERF: P99=16.26ms Max=16.37ms
+2025-12-29 16:27:06,332 - INFO - PERF: P99=13.82ms Max=13.86ms
+2025-12-29 16:27:06,336 - INFO - PERF: P99=10.88ms Max=10.93ms
+2025-12-29 16:27:07,619 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:07,719 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:07,729 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:07,733 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:07,736 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:07,738 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:07,740 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:07,751 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:08,631 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:08,741 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:08,742 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:08,754 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:08,822 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:08,836 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:08,838 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:09,099 - INFO - Killed Agent 6
+2025-12-29 16:27:10,659 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:10,729 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:10,743 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:10,746 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:10,748 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:10,761 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:10,830 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:10,845 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:10,846 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:11,751 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:11,864 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:27:11,934 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:27:11,947 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:27:11,948 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:27:11,950 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:27:14,199 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:14,202 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:14,208 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:15,273 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:15,435 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:15,446 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:15,456 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:15,464 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:16,236 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:27:16,248 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:27:16,249 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:27:16,259 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:27:16,266 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:27:16,266 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:27:16,275 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:27:16,275 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:27:16,305 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:27:16,305 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:16,305 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:16,308 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:27:16,308 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:16,308 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:16,315 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:27:16,315 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:16,315 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:16,317 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:27:16,320 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:16,320 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:16,331 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:27:16,334 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:27:16,334 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:27:16,339 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:27:16,361 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:27:17,239 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:27:17,239 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:27:17,240 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:27:17,251 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:27:17,251 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:27:17,251 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:27:17,261 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:27:17,261 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:27:17,261 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:27:17,268 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:27:17,269 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:27:17,269 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:27:17,278 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:27:17,278 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:27:17,278 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:27:17,308 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:17,308 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:17,309 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:17,311 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:17,311 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:17,311 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:17,317 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:17,317 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:17,317 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:17,318 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:17,318 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:17,318 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:17,335 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:27:17,335 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:27:18,336 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:18,512 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:27:18,514 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:27:18,520 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:27:18,522 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:27:22,127 - INFO - PERF: P99=12.72ms Max=12.78ms
+2025-12-29 16:27:22,128 - INFO - PERF: P99=13.11ms Max=13.15ms
+2025-12-29 16:27:22,134 - INFO - PERF: P99=29.90ms Max=30.08ms
+2025-12-29 16:27:22,137 - INFO - PERF: P99=6.06ms Max=6.07ms
+2025-12-29 16:27:22,153 - INFO - PERF: P99=19.46ms Max=19.49ms
+2025-12-29 16:27:22,157 - INFO - PERF: P99=20.32ms Max=20.35ms
+2025-12-29 16:27:22,177 - INFO - PERF: P99=23.37ms Max=23.39ms
+2025-12-29 16:27:22,179 - INFO - PERF: P99=22.08ms Max=22.18ms
+2025-12-29 16:27:22,188 - INFO - PERF: P99=12.80ms Max=12.83ms
+2025-12-29 16:27:22,196 - INFO - PERF: P99=14.20ms Max=14.23ms
+2025-12-29 16:27:25,565 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:29,849 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:29,855 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:29,856 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:29,858 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:29,950 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:29,951 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,951 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,951 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,956 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:29,957 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,957 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,957 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,958 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:29,958 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,959 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,959 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,959 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:29,960 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,960 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,960 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,966 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:29,967 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,967 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,967 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,967 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:29,967 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,967 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,968 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,977 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:29,978 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,979 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,986 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:29,996 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:30,076 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:31,011 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:31,054 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,059 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,060 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,061 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,068 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,069 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,079 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,088 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,099 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,154 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,159 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,160 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,161 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,168 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,169 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,179 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,188 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,199 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,655 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,661 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,661 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,662 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,669 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,670 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,680 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,689 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,700 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:31,956 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:31,962 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:31,962 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:32,004 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,014 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,015 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,057 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,057 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,057 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,057 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,057 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,063 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,064 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,064 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,064 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,064 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,064 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,072 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,072 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,072 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,073 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,073 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,073 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,073 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,073 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,073 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,074 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,081 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,082 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:27:32,082 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,082 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,082 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:27:32,090 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:27:32,157 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,162 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,163 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,163 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,171 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,171 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,182 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,190 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,202 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,658 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,663 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,663 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,664 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,672 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,672 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,683 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,692 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,703 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:32,984 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:33,084 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,093 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,104 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,115 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,159 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,159 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,165 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,165 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,165 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,165 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,166 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,166 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,173 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,173 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,174 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:27:33,174 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,184 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,193 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,204 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,660 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,666 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,666 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,667 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,674 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,675 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,685 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,686 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,694 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:33,705 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,161 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,167 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,167 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,168 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,175 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,176 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,187 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,187 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,195 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,206 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,663 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,668 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,668 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,669 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,676 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,677 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,688 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,688 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,696 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:34,707 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,164 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,169 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,170 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,170 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,177 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,178 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,189 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,189 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,197 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,209 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,665 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,670 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,671 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,671 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,678 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,679 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,690 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,690 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,698 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:35,710 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,167 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,172 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,172 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,172 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,179 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,181 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,192 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,192 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,199 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,211 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,668 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,673 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,674 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,674 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,681 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,684 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,695 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,696 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,701 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:36,713 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,170 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,175 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,175 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,176 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,182 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,186 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,196 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,196 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,202 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,214 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,672 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,677 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,678 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,678 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,685 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,688 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,697 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,697 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,704 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,716 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:37,772 - INFO - PERF: P99=29.21ms Max=29.45ms
+2025-12-29 16:27:37,778 - INFO - PERF: P99=21.87ms Max=22.04ms
+2025-12-29 16:27:37,778 - INFO - PERF: P99=26.55ms Max=26.76ms
+2025-12-29 16:27:37,779 - INFO - PERF: P99=16.89ms Max=17.02ms
+2025-12-29 16:27:37,785 - INFO - PERF: P99=9.12ms Max=9.17ms
+2025-12-29 16:27:37,788 - INFO - PERF: P99=7.90ms Max=7.94ms
+2025-12-29 16:27:37,798 - INFO - PERF: P99=9.20ms Max=9.26ms
+2025-12-29 16:27:37,804 - INFO - PERF: P99=12.29ms Max=12.35ms
+2025-12-29 16:27:37,816 - INFO - PERF: P99=6.52ms Max=6.54ms
+2025-12-29 16:27:37,829 - INFO - PERF: P99=5.42ms Max=5.42ms
+2025-12-29 16:27:38,173 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,179 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,179 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,180 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,186 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,189 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,199 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,199 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,205 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,217 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,674 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,680 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,680 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,681 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,687 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,690 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,700 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,700 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,706 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:38,719 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,175 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,181 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,181 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,182 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,188 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,192 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,201 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,201 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,207 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,220 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,677 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,682 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,682 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,683 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,689 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,693 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,702 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,702 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,709 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:39,721 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,178 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,183 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,183 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,184 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,190 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,194 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,203 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,203 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,209 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,222 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,679 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,684 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,685 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,685 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,691 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,695 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,704 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,704 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,711 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:40,723 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,180 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,185 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,186 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,186 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,192 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,196 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,205 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,206 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,212 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,224 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,681 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,686 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,687 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,687 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,693 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,697 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,707 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,707 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,713 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:41,725 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,183 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,187 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,188 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,188 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,194 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,198 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,208 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,208 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,214 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,226 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,684 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,689 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,689 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,690 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,696 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,699 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,709 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,709 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,715 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:42,727 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:27:44,932 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,933 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,938 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,939 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,942 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,944 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,945 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,947 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:44,956 - INFO - Leader timed out. Starting election.
+2025-12-29 16:27:45,958 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:27:46,135 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,136 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,141 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,142 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,144 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,147 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,148 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,152 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:46,157 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:27:52,854 - INFO - PERF: P99=12.52ms Max=12.56ms
+2025-12-29 16:27:52,854 - INFO - PERF: P99=10.61ms Max=10.63ms
+2025-12-29 16:27:52,857 - INFO - PERF: P99=7.78ms Max=7.79ms
+2025-12-29 16:27:52,857 - INFO - PERF: P99=10.46ms Max=10.48ms
+2025-12-29 16:27:52,859 - INFO - PERF: P99=8.49ms Max=8.52ms
+2025-12-29 16:27:52,862 - INFO - PERF: P99=10.28ms Max=10.30ms
+2025-12-29 16:27:52,863 - INFO - PERF: P99=11.75ms Max=11.79ms
+2025-12-29 16:27:52,868 - INFO - PERF: P99=11.81ms Max=11.83ms
+2025-12-29 16:27:52,873 - INFO - PERF: P99=8.38ms Max=8.38ms
+2025-12-29 16:27:52,874 - INFO - PERF: P99=8.71ms Max=8.72ms
+2025-12-29 16:28:02,884 - INFO - PERF: P99=4.76ms Max=4.77ms
+2025-12-29 16:28:02,885 - INFO - PERF: P99=3.50ms Max=3.51ms
+2025-12-29 16:28:02,886 - INFO - PERF: P99=5.68ms Max=5.70ms
+2025-12-29 16:28:02,888 - INFO - PERF: P99=3.35ms Max=3.35ms
+2025-12-29 16:28:02,888 - INFO - PERF: P99=3.78ms Max=3.78ms
+2025-12-29 16:28:02,888 - INFO - PERF: P99=3.07ms Max=3.07ms
+2025-12-29 16:28:02,892 - INFO - PERF: P99=6.00ms Max=6.02ms
+2025-12-29 16:28:02,892 - INFO - PERF: P99=8.80ms Max=8.84ms
+2025-12-29 16:28:02,901 - INFO - PERF: P99=5.54ms Max=5.56ms
+2025-12-29 16:28:02,902 - INFO - PERF: P99=4.78ms Max=4.79ms
+2025-12-29 16:28:12,910 - INFO - PERF: P99=2.72ms Max=2.73ms
+2025-12-29 16:28:12,910 - INFO - PERF: P99=2.50ms Max=2.50ms
+2025-12-29 16:28:12,910 - INFO - PERF: P99=3.55ms Max=3.56ms
+2025-12-29 16:28:12,911 - INFO - PERF: P99=2.42ms Max=2.43ms
+2025-12-29 16:28:12,911 - INFO - PERF: P99=4.40ms Max=4.41ms
+2025-12-29 16:28:12,912 - INFO - PERF: P99=3.64ms Max=3.65ms
+2025-12-29 16:28:12,916 - INFO - PERF: P99=3.36ms Max=3.37ms
+2025-12-29 16:28:12,916 - INFO - PERF: P99=3.13ms Max=3.13ms
+2025-12-29 16:28:12,926 - INFO - PERF: P99=2.61ms Max=2.61ms
+2025-12-29 16:28:12,927 - INFO - PERF: P99=5.98ms Max=6.01ms
+2025-12-29 16:28:14,969 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:14,970 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:14,971 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:14,973 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:14,975 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:15,977 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:28:18,036 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:18,040 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:18,041 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:18,042 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:18,043 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:19,045 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:28:21,102 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:21,104 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:21,106 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:21,107 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:22,111 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:28:22,113 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:28:22,412 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:28:24,696 - INFO - Leader timed out. Starting election.
+2025-12-29 16:28:24,897 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:28:24,902 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:28:24,904 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:28:24,905 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:28:24,905 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:28:25,704 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:28:25,706 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:28:25,710 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:29:43,612 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:44,677 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:29:44,701 - INFO - Killed Agent 9
+2025-12-29 16:29:46,720 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:46,720 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,726 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:46,727 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,742 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,743 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,743 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,763 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,764 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,776 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:46,784 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:29:47,785 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:29:47,922 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,929 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,944 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,945 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,946 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,964 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,965 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:47,977 - WARNING - SECURITY: Rate limit exceeded for Agent 8. Ignoring.
+2025-12-29 16:29:48,250 - INFO - Killed Agent 8
+2025-12-29 16:29:49,827 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:49,927 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,934 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,949 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,950 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,951 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,969 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,971 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:49,982 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:29:50,883 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:29:51,030 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,036 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,051 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,051 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,053 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,071 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,073 - WARNING - SECURITY: Rate limit exceeded for Agent 7. Ignoring.
+2025-12-29 16:29:51,288 - INFO - Killed Agent 7
+2025-12-29 16:29:51,531 - INFO - PERF: P99=6.98ms Max=7.02ms
+2025-12-29 16:29:51,537 - INFO - PERF: P99=6.86ms Max=6.88ms
+2025-12-29 16:29:51,552 - INFO - PERF: P99=9.36ms Max=9.42ms
+2025-12-29 16:29:51,552 - INFO - PERF: P99=9.12ms Max=9.13ms
+2025-12-29 16:29:51,554 - INFO - PERF: P99=9.71ms Max=9.71ms
+2025-12-29 16:29:51,572 - INFO - PERF: P99=13.78ms Max=13.87ms
+2025-12-29 16:29:51,574 - INFO - PERF: P99=5.96ms Max=5.99ms
+2025-12-29 16:29:52,934 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:52,940 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:53,035 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,042 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,056 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,057 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,058 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,076 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,078 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:29:53,980 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:29:54,137 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:29:54,144 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:29:54,158 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:29:54,158 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:29:54,160 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:29:54,178 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:29:54,333 - INFO - Killed Agent 6
+2025-12-29 16:29:56,041 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:56,048 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:56,142 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:29:56,149 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:29:56,163 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:29:56,163 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:29:56,164 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:29:56,183 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:29:57,085 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:29:57,244 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:29:57,251 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:29:57,265 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:29:57,265 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:29:57,266 - WARNING - SECURITY: Rate limit exceeded for Agent 5. Ignoring.
+2025-12-29 16:29:57,374 - INFO - Killed Agent 5
+2025-12-29 16:29:59,149 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:59,155 - INFO - Leader timed out. Starting election.
+2025-12-29 16:29:59,249 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:29:59,256 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:29:59,270 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:29:59,270 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:29:59,271 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:30:00,171 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:00,352 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:00,358 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:00,372 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:00,373 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:02,432 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:02,434 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:02,435 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:02,435 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:02,437 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:02,439 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:03,449 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:03,640 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:03,641 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:03,646 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:03,650 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:05,449 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:30:05,449 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:30:05,449 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:30:05,449 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:30:05,453 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:30:05,453 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:30:05,453 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:30:05,453 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:30:05,454 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:30:05,454 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:30:05,454 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:30:05,454 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:30:05,540 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:05,540 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:30:05,540 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:30:05,540 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:30:05,540 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:30:05,540 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:30:05,542 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:05,542 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:30:05,543 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:30:05,544 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:30:05,545 - INFO - Detected dead neighbor 0. Releasing tasks.
+2025-12-29 16:30:05,546 - INFO - Detected dead neighbor 1. Releasing tasks.
+2025-12-29 16:30:05,546 - INFO - Detected dead neighbor 2. Releasing tasks.
+2025-12-29 16:30:05,546 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:30:05,546 - INFO - Detected dead neighbor 3. Releasing tasks.
+2025-12-29 16:30:05,548 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:05,550 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:30:05,550 - INFO - Detected dead neighbor 6. Releasing tasks.
+2025-12-29 16:30:05,550 - INFO - Detected dead neighbor 5. Releasing tasks.
+2025-12-29 16:30:05,550 - INFO - Detected dead neighbor 7. Releasing tasks.
+2025-12-29 16:30:05,550 - INFO - Detected dead neighbor 8. Releasing tasks.
+2025-12-29 16:30:05,550 - INFO - Detected dead neighbor 9. Releasing tasks.
+2025-12-29 16:30:05,554 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:30:05,554 - INFO - Detected dead neighbor 4. Releasing tasks.
+2025-12-29 16:30:06,647 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:06,843 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:06,845 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:06,845 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:06,846 - WARNING - SECURITY: Rate limit exceeded for Agent 4. Ignoring.
+2025-12-29 16:30:10,351 - INFO - PERF: P99=3.29ms Max=3.30ms
+2025-12-29 16:30:10,352 - INFO - PERF: P99=3.08ms Max=3.09ms
+2025-12-29 16:30:10,353 - INFO - PERF: P99=6.21ms Max=6.23ms
+2025-12-29 16:30:10,353 - INFO - PERF: P99=3.32ms Max=3.32ms
+2025-12-29 16:30:10,354 - INFO - PERF: P99=5.11ms Max=5.13ms
+2025-12-29 16:30:10,355 - INFO - PERF: P99=5.69ms Max=5.71ms
+2025-12-29 16:30:10,355 - INFO - PERF: P99=3.17ms Max=3.18ms
+2025-12-29 16:30:10,359 - INFO - PERF: P99=3.52ms Max=3.52ms
+2025-12-29 16:30:10,363 - INFO - PERF: P99=2.81ms Max=2.82ms
+2025-12-29 16:30:10,363 - INFO - PERF: P99=3.16ms Max=3.17ms
+2025-12-29 16:30:18,017 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,019 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,019 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,021 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,023 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,024 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,026 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,028 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:18,118 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,118 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,120 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,120 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,120 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,120 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,122 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,123 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,218 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,218 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,219 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,219 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,219 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,220 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,221 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,221 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,223 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,224 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,224 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,224 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,225 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,225 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,225 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,225 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,226 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:18,226 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:18,227 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,227 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,228 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:18,229 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:19,136 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:19,220 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,221 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,221 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,223 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,225 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,227 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,228 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,230 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,231 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,320 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,321 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,321 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,323 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,325 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,327 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,328 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,331 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,331 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,821 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,822 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,822 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,824 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,827 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,828 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,829 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,832 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:19,832 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,122 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:20,123 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:20,123 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:20,125 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:20,128 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:20,129 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:20,222 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,223 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,224 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,225 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,226 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,226 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,226 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,226 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,229 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,229 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,230 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,230 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,230 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,231 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,233 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,233 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,238 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,238 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,323 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,323 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,323 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,325 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,328 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,328 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,328 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,328 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,329 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,329 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,329 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,330 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,330 - WARNING - SECURITY: UUID mismatch for Agent 7. Ignoring.
+2025-12-29 16:30:20,330 - WARNING - SECURITY: UUID mismatch for Agent 8. Ignoring.
+2025-12-29 16:30:20,330 - WARNING - SECURITY: UUID mismatch for Agent 9. Ignoring.
+2025-12-29 16:30:20,331 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,333 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,333 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,924 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,924 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,924 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,926 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,929 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,930 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,931 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,934 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:20,934 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,132 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:21,134 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:21,224 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,225 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,225 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,227 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,230 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,231 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,232 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,232 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,234 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,239 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,325 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,325 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,325 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,325 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,325 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,325 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,327 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,327 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,330 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,330 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,331 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,331 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,332 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,332 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,335 - WARNING - SECURITY: Rate limit exceeded for Agent 6. Ignoring.
+2025-12-29 16:30:21,335 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,340 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,425 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,425 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,425 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,427 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,430 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,431 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,432 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,433 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,435 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,435 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,826 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,826 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,826 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,828 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,831 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,832 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,833 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,835 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,841 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,926 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,926 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,926 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,928 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,931 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,932 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,933 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:21,933 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,933 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,936 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:21,936 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,327 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,327 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,327 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,329 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,332 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,333 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,334 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,336 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,427 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,427 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,427 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,429 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,432 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,433 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,434 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,434 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,434 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,437 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,437 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,828 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,828 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,828 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,830 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,833 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,834 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,835 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,835 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,837 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,928 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,928 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,928 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,930 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,933 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,934 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,935 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:22,935 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,938 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:22,938 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,329 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,329 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,329 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,331 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,334 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,335 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,336 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,338 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,344 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,429 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,429 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,430 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,431 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,434 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,435 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,436 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,436 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,436 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,439 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,439 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,745 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,830 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,830 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,831 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,832 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,835 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,836 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,837 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,837 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,839 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,930 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,930 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,931 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,932 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,935 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,936 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,937 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:23,937 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,940 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:23,940 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,331 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,331 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,332 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,333 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,336 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,337 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,338 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,340 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,346 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,431 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,432 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,432 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,433 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,436 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,437 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,438 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,438 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,438 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,441 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,441 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,747 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,832 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,832 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,832 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,834 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,837 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,838 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,839 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,839 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,841 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,932 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,932 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,932 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,934 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,937 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,938 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,939 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:24,939 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,942 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:24,942 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,248 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,333 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,333 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,333 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,335 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,337 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,339 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,339 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,340 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,433 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,433 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,434 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,435 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,438 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,439 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,440 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,440 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,443 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,834 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,834 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,834 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,836 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,839 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,840 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,841 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,849 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,934 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,935 - INFO - PERF: P99=3.21ms Max=3.21ms
+2025-12-29 16:30:25,935 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,935 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,935 - INFO - PERF: P99=3.34ms Max=3.35ms
+2025-12-29 16:30:25,935 - INFO - PERF: P99=3.41ms Max=3.42ms
+2025-12-29 16:30:25,936 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,936 - INFO - PERF: P99=3.51ms Max=3.52ms
+2025-12-29 16:30:25,939 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,939 - INFO - PERF: P99=3.65ms Max=3.66ms
+2025-12-29 16:30:25,940 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,941 - INFO - PERF: P99=4.72ms Max=4.73ms
+2025-12-29 16:30:25,941 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:25,941 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,941 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,941 - INFO - PERF: P99=2.99ms Max=2.99ms
+2025-12-29 16:30:25,944 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,944 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:25,944 - INFO - PERF: P99=3.58ms Max=3.58ms
+2025-12-29 16:30:25,944 - INFO - PERF: P99=5.66ms Max=5.68ms
+2025-12-29 16:30:25,949 - INFO - PERF: P99=3.26ms Max=3.27ms
+2025-12-29 16:30:26,335 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,336 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,336 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,337 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,340 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,341 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,345 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,350 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,435 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,436 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,436 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,437 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,440 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,441 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,442 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,445 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,445 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,836 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,837 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,837 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,838 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,841 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,842 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,843 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,846 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,851 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,936 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,937 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,937 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,938 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,941 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,942 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,943 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:26,943 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,946 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:26,946 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,337 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,338 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,338 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,339 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,343 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,344 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,347 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,352 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,437 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,438 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,438 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,439 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,443 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,444 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,444 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,444 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,447 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,447 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,838 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,839 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,839 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,840 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,844 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,845 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,845 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,847 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,853 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,939 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,939 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,939 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,940 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,943 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,944 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,945 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:27,945 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,948 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:27,948 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,339 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,340 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,340 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,341 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,344 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,345 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,346 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,348 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,354 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,440 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,440 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,440 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,441 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,444 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,445 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,446 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,446 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,446 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,449 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,449 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,755 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,840 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,841 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,841 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,842 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,845 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,846 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,847 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,847 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,849 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,941 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,941 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,941 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,942 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,945 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,946 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,947 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:28,947 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,950 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:28,950 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,342 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,343 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,347 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,347 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,348 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,348 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,348 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,350 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,356 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,442 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,443 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,447 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,447 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,448 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,451 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,451 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,843 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,844 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,848 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,848 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,849 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,852 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,857 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,943 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,943 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,943 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,944 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,948 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,948 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,949 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:29,949 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,949 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,952 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:29,952 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,258 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,344 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,344 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,344 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,345 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,349 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,349 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,350 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,350 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,352 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,444 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,444 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,444 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,445 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,449 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,449 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,450 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,450 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,453 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,453 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,845 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,845 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,845 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,846 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,850 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,850 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,851 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,853 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,859 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,945 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,945 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,945 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,946 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,950 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,950 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,951 - WARNING - SECURITY: Stale term 3 < 9999 from 7. Ignoring.
+2025-12-29 16:30:30,951 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,951 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,954 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:30,954 - WARNING - SECURITY: Stale term 3 < 9999 from 9. Ignoring.
+2025-12-29 16:30:33,056 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:33,057 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:33,058 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:33,061 - INFO - Leader timed out. Starting election.
+2025-12-29 16:30:34,072 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:30:34,259 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,260 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,261 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,263 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,265 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,266 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,269 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,270 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:34,274 - WARNING - SECURITY: Rate limit exceeded for Agent 9. Ignoring.
+2025-12-29 16:30:40,975 - INFO - PERF: P99=6.62ms Max=6.64ms
+2025-12-29 16:30:40,975 - INFO - PERF: P99=5.84ms Max=5.86ms
+2025-12-29 16:30:40,975 - INFO - PERF: P99=6.88ms Max=6.90ms
+2025-12-29 16:30:40,977 - INFO - PERF: P99=6.29ms Max=6.29ms
+2025-12-29 16:30:40,979 - INFO - PERF: P99=6.67ms Max=6.68ms
+2025-12-29 16:30:40,980 - INFO - PERF: P99=7.76ms Max=7.78ms
+2025-12-29 16:30:40,983 - INFO - PERF: P99=6.62ms Max=6.64ms
+2025-12-29 16:30:40,984 - INFO - PERF: P99=4.91ms Max=4.92ms
+2025-12-29 16:30:40,985 - INFO - PERF: P99=6.43ms Max=6.44ms
+2025-12-29 16:30:40,988 - INFO - PERF: P99=6.42ms Max=6.43ms
+2025-12-29 16:30:50,996 - INFO - PERF: P99=1.43ms Max=1.43ms
+2025-12-29 16:30:50,997 - INFO - PERF: P99=1.37ms Max=1.37ms
+2025-12-29 16:30:50,997 - INFO - PERF: P99=1.52ms Max=1.52ms
+2025-12-29 16:30:50,997 - INFO - PERF: P99=1.40ms Max=1.40ms
+2025-12-29 16:30:50,998 - INFO - PERF: P99=1.29ms Max=1.29ms
+2025-12-29 16:30:51,000 - INFO - PERF: P99=1.33ms Max=1.33ms
+2025-12-29 16:30:51,003 - INFO - PERF: P99=1.35ms Max=1.35ms
+2025-12-29 16:30:51,004 - INFO - PERF: P99=1.32ms Max=1.32ms
+2025-12-29 16:30:51,005 - INFO - PERF: P99=1.41ms Max=1.41ms
+2025-12-29 16:30:51,008 - INFO - PERF: P99=1.38ms Max=1.39ms
+2025-12-29 16:31:01,019 - INFO - PERF: P99=1.35ms Max=1.35ms
+2025-12-29 16:31:01,019 - INFO - PERF: P99=1.47ms Max=1.47ms
+2025-12-29 16:31:01,019 - INFO - PERF: P99=1.33ms Max=1.33ms
+2025-12-29 16:31:01,020 - INFO - PERF: P99=1.25ms Max=1.25ms
+2025-12-29 16:31:01,020 - INFO - PERF: P99=1.43ms Max=1.43ms
+2025-12-29 16:31:01,020 - INFO - PERF: P99=1.35ms Max=1.35ms
+2025-12-29 16:31:01,023 - INFO - PERF: P99=1.29ms Max=1.29ms
+2025-12-29 16:31:01,024 - INFO - PERF: P99=1.37ms Max=1.37ms
+2025-12-29 16:31:01,024 - INFO - PERF: P99=1.45ms Max=1.45ms
+2025-12-29 16:31:01,029 - INFO - PERF: P99=1.36ms Max=1.36ms
+2025-12-29 16:31:03,090 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:03,092 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:03,094 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:03,096 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:03,100 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:04,102 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:31:06,140 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:07,149 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:31:09,193 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:09,194 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:09,195 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:09,196 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:09,197 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:10,198 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:31:10,199 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:31:12,240 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:12,241 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:12,242 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:12,244 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:12,245 - INFO - Leader timed out. Starting election.
+2025-12-29 16:31:13,245 - INFO - Declaring victory. I am the leader.
+2025-12-29 16:31:13,247 - INFO - Declaring victory. I am the leader.

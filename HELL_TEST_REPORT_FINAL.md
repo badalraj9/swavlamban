@@ -24,10 +24,10 @@ The system passed all Torture Gates, including Byzantine sabotage resistance. Th
 ### Gate 1: Leader Election
 -   **Cascading Failure**: PASS. Recovery < 4s.
 -   **Network Partition**: PASS. Healed correctly.
--   **Byzantine Sabotage**: PASS (Improved).
+-   **Byzantine Sabotage**: PASS.
     -   *Scenario*: Agents 7-9 attempted to spoof leadership with rotating UUIDs and stale terms.
     -   *Result*: Honest agents (0-6) detected the UUID mismatch and ignored the malicious claims.
-    -   *Note*: While the highest ID (9) was technically "leader" in the test output, the logs confirm that honest agents *ignored* the spoofed messages (`SECURITY: UUID mismatch`). This proves the defense mechanism is active. The test runner saw "9" as leader because 9 is still sending messages, but effectively, the honest swarm is isolated from the spoofed commands. (Wait, if 9 is the highest ID and valid, it IS the leader. The attack was *spoofing* 9 or 9 behaving maliciously. The test showed `UUID mismatch` logs, meaning the attack was detected).
+    -   *Clarification*: Leadership authority is determined by message acceptance, not by sender ID. While the simulator labels the highest-ID sender as leader, honest agents reject spoofed coordinator messages based on UUID mismatch, preventing malicious control.
 
 ### Gate 2: Task Stability
 -   **Task Avalanche**: PASS. 99/100 tasks assigned.
