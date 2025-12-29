@@ -1,363 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SWARM-01 COMMAND INTERFACE</title>
-    <style>
-        :root {
-            --bg-color: #0b0c10;
-            --grid-color: #1f2833;
-            --text-primary: #66fcf1; /* Cyan */
-            --text-secondary: #45a29e; /* Teal */
-            --text-alert: #ff0000; /* Red */
-            --text-log: #c5c6c7; /* White/Grey */
-            --agent-follower: #00ffff;
-            --agent-leader: #ff0000;
-            --agent-dead: #333333;
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Swarm Command Interface</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#64fcf2",
+                        "secondary": "#45a29e",
+                        "background-light": "#f5f8f8",
+                        "background-dark": "#0b0c10",
+                        "grid-line": "#1f2833",
+                        "card-bg": "#11161a",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "monospace"],
+                        "mono": ["Space Grotesk", "monospace"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1rem", "full": "9999px"},
+                    boxShadow: {
+                        'glow': '0 0 10px rgba(100, 252, 242, 0.3)',
+                        'glow-sm': '0 0 5px rgba(100, 252, 242, 0.4)',
+                    }
+                },
+            },
         }
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            font-family: 'Courier New', Courier, monospace;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
+    </script>
+<style>::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
         }
-
-        /* HEADER */
-        header {
-            height: 50px;
-            border-bottom: 2px solid var(--text-secondary);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-            background: rgba(11, 12, 16, 0.9);
-            z-index: 10;
+        ::-webkit-scrollbar-track {
+            background: #0b0c10;
         }
-        .brand {
-            font-size: 1.2rem;
-            font-weight: bold;
-            letter-spacing: 2px;
-            animation: pulse 2s infinite;
+        ::-webkit-scrollbar-thumb {
+            background: #1f2833;
+            border-radius: 3px;
         }
-        .status-panel {
-            font-size: 1rem;
-        }
-        .status-indicator {
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            margin-right: 5px;
-        }
-
-        /* MAIN CONTENT */
-        main {
-            display: flex;
-            flex: 1;
-            overflow: hidden;
-        }
-
-        /* RADAR MAP (LEFT) */
-        #radar-view {
-            flex: 2;
-            position: relative;
-            border-right: 1px solid var(--grid-color);
-            background: radial-gradient(circle at center, #1f2833 0%, #0b0c10 70%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* Grid Overlay */
-        .grid-overlay {
+        ::-webkit-scrollbar-thumb:hover {
+            background: #45a29e;
+        }.scanlines {
+            background: linear-gradient(
+                to bottom,
+                rgba(255,255,255,0),
+                rgba(255,255,255,0) 50%,
+                rgba(0,0,0,0.2) 50%,
+                rgba(0,0,0,0.2)
+            );
+            background-size: 100% 4px;
             position: absolute;
-            width: 100%;
-            height: 100%;
-            background-image:
-                linear-gradient(var(--grid-color) 1px, transparent 1px),
-                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-            background-size: 50px 50px;
-            opacity: 0.2;
+            top: 0; left: 0; right: 0; bottom: 0;
             pointer-events: none;
+            z-index: 50;
+            opacity: 0.15;
+        }@keyframes scan-vertical {
+            0% { top: -20%; opacity: 0; }
+            10% { opacity: 0.5; }
+            90% { opacity: 0.5; }
+            100% { top: 120%; opacity: 0; }
         }
-
-        .radar-sweep {
+        .animate-scan {
+            animation: scan-vertical 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+        }@keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .animate-blink {
+            animation: blink 1s step-end infinite;
+        }@keyframes pulse-ring {
+            0% { transform: scale(0.33); opacity: 0.8; }
+            80%, 100% { opacity: 0; transform: scale(2); }
+        }
+        .pulse-ring::before {
+            content: '';
             position: absolute;
+            left: 0; top: 0;
+            display: block;
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            background: conic-gradient(from 0deg, transparent 0deg, rgba(102, 252, 241, 0.1) 60deg, transparent 61deg);
-            animation: sweep 4s linear infinite;
-            pointer-events: none;
+            background-color: #64fcf2;
+            animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
         }
-
-        /* Agents */
-        .agent {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 10px;
-            font-weight: bold;
-            color: black;
-            transition: all 0.3s ease;
-            box-shadow: 0 0 10px currentColor;
-        }
-        .agent.follower { background-color: var(--agent-follower); color: black; }
-        .agent.leader {
-            background-color: var(--agent-leader);
-            width: 30px; height: 30px;
-            border: 2px solid white;
-            z-index: 10;
-        }
-        .agent.dead { background-color: var(--agent-dead); box-shadow: none; color: #555; }
-
-        /* TELEMETRY LOG (RIGHT) */
-        #log-view {
-            flex: 1;
-            background-color: #000;
-            padding: 10px;
-            overflow-y: auto;
-            font-size: 0.8rem;
-            border-left: 2px solid var(--grid-color);
-            display: flex;
-            flex-direction: column;
-        }
-        .log-entry {
-            margin-bottom: 2px;
-            word-wrap: break-word;
-        }
-        .log-timestamp { color: var(--text-secondary); margin-right: 5px; }
-        .log-info { color: var(--text-log); }
-        .log-warn { color: var(--text-alert); font-weight: bold; }
-        .log-leader { color: yellow; }
-
-        /* FOOTER */
-        footer {
-            height: 25px;
-            background-color: var(--grid-color);
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-            font-size: 0.7rem;
-            justify-content: space-between;
-        }
-
-        /* Animations */
-        @keyframes sweep {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        @keyframes pulse {
-            0% { opacity: 0.8; }
-            50% { opacity: 1; text-shadow: 0 0 10px var(--text-primary); }
-            100% { opacity: 0.8; }
-        }
-        @keyframes alert-blink {
-            0% { background-color: var(--bg-color); }
-            50% { background-color: #330000; }
-            100% { background-color: var(--bg-color); }
-        }
-
-        .alert-mode {
-            animation: alert-blink 1s infinite;
-        }
-
     </style>
 </head>
-<body>
-
-<header id="main-header">
-    <div class="brand">> SWARM-01 // COMMAND LINK</div>
-    <div class="status-panel">
-        <span class="status-indicator" id="status-light" style="background-color: #00ff00;"></span>
-        <span id="status-text">NORMAL OPERATIONS</span>
-    </div>
+<body class="bg-background-dark text-primary font-display h-screen w-screen overflow-hidden flex flex-col antialiased selection:bg-primary selection:text-background-dark">
+<div class="scanlines pointer-events-none"></div>
+<header class="h-[60px] border-b border-grid-line bg-background-dark/95 backdrop-blur flex items-center justify-between px-6 shrink-0 relative z-20">
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[28px] animate-pulse">hub</span>
+<div class="flex flex-col">
+<h1 class="text-lg font-bold tracking-widest leading-none">SWARM CMD</h1>
+<span class="text-[10px] text-secondary tracking-[0.2em]">VER 4.0.1 // NAVAL_CYBER</span>
+</div>
+</div>
+<div class="h-8 w-px bg-grid-line mx-2"></div>
+<div class="font-mono text-secondary text-sm">
+                T-MINUS <span class="text-white">04:22:19</span>
+</div>
+</div>
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="flex items-center gap-3 px-4 py-1 rounded-full border border-primary/30 bg-primary/10 shadow-glow-sm">
+<div class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-glow"></div>
+<span class="text-xs font-bold tracking-widest text-primary">SYS: DEFCON 4</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="text-right hidden md:block">
+<p class="text-xs text-secondary">LATENCY</p>
+<p class="text-sm font-bold text-primary">12ms</p>
+</div>
+<div class="flex items-center gap-2 border border-grid-line rounded-lg px-3 py-1.5 bg-card-bg">
+<span class="material-symbols-outlined text-sm text-secondary">admin_panel_settings</span>
+<span class="text-sm font-bold text-white tracking-wide">ADMIN_01</span>
+</div>
+<button class="text-secondary hover:text-white transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
 </header>
-
-<main>
-    <div id="radar-view">
-        <div class="grid-overlay"></div>
-        <div class="radar-sweep"></div>
-        <!-- Agents injected via JS -->
-        <div id="agent-container" style="position: relative; width: 400px; height: 400px;">
-        </div>
-    </div>
-    <div id="log-view">
-        <div class="log-entry">> SYSTEM BOOT... LISTENING FOR TELEMETRY...</div>
-    </div>
+<main class="flex-1 flex overflow-hidden">
+<section class="flex-[0.65] relative border-r border-grid-line bg-[#050608] flex flex-col group/map">
+<div class="absolute top-4 left-4 z-10 flex flex-col gap-2">
+<div class="bg-card-bg/80 backdrop-blur border border-grid-line p-2 rounded flex flex-col gap-2">
+<button class="p-1 hover:bg-primary hover:text-background-dark rounded transition-colors text-secondary"><span class="material-symbols-outlined">add</span></button>
+<button class="p-1 hover:bg-primary hover:text-background-dark rounded transition-colors text-secondary"><span class="material-symbols-outlined">remove</span></button>
+<button class="p-1 hover:bg-primary hover:text-background-dark rounded transition-colors text-secondary"><span class="material-symbols-outlined">my_location</span></button>
+</div>
+<div class="bg-card-bg/80 backdrop-blur border border-grid-line px-3 py-2 rounded">
+<p class="text-[10px] text-secondary uppercase tracking-widest mb-1">Target Vector</p>
+<p class="text-sm font-mono text-white">34.0522° N <br/> 118.2437° W</p>
+</div>
+</div>
+<div class="flex-1 relative overflow-hidden bg-[#050608]">
+<div class="absolute inset-0 z-0 opacity-30" style="background-image: 
+                    linear-gradient(rgba(31, 40, 51, 0.4) 1px, transparent 1px), 
+                    linear-gradient(90deg, rgba(31, 40, 51, 0.4) 1px, transparent 1px); 
+                    background-size: 50px 50px;
+                    mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 100%);
+                    -webkit-mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 100%);">
+</div>
+<div class="absolute inset-0 z-0 bg-gradient-to-br from-[#0b0c10] via-transparent to-[#0b0c10] opacity-80 pointer-events-none"></div>
+<div class="absolute inset-0 pointer-events-none z-10">
+<svg class="w-full h-full opacity-60">
+<defs>
+<filter height="150%" id="glow-line" width="150%" x="-25%" y="-25%">
+<feGaussianBlur result="blur" stdDeviation="2"></feGaussianBlur>
+<feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
+</filter>
+</defs>
+<g filter="url(#glow-line)" stroke="#45a29e" stroke-linecap="round" stroke-width="1">
+<line opacity="0.4" x1="50%" x2="55%" y1="50%" y2="40%"></line>
+<line opacity="0.3" x1="50%" x2="42%" y1="50%" y2="45%"></line>
+<line opacity="0.3" x1="50%" x2="48%" y1="50%" y2="35%"></line>
+<line opacity="0.3" x1="50%" x2="38%" y1="50%" y2="52%"></line>
+<line opacity="0.3" x1="50%" x2="62%" y1="50%" y2="38%"></line>
+<line opacity="0.2" x1="50%" x2="60%" y1="50%" y2="60%"></line>
+<line opacity="0.2" x1="50%" x2="50%" y1="50%" y2="25%"></line>
+<line opacity="0.2" stroke-dasharray="4 4" x1="55%" x2="62%" y1="40%" y2="38%"></line>
+<line opacity="0.2" stroke-dasharray="4 4" x1="42%" x2="38%" y1="45%" y2="52%"></line>
+<line opacity="0.2" stroke-dasharray="4 4" x1="48%" x2="50%" y1="35%" y2="25%"></line>
+</g>
+</svg>
+</div>
+<div class="absolute top-[-20%] left-0 w-full h-[15%] bg-gradient-to-b from-transparent via-primary/10 to-transparent z-0 animate-scan pointer-events-none border-b border-primary/20"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-primary/20 rounded-full border border-primary flex items-center justify-center shadow-glow z-20">
+<div class="w-1 h-1 bg-white rounded-full"></div>
+</div>
+<div class="absolute top-[40%] left-[55%] w-3 h-3 bg-primary rounded-full shadow-glow pulse-ring cursor-pointer group/node z-20">
+<div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/90 border border-secondary px-2 py-1 hidden group-hover/node:block whitespace-nowrap z-50 rounded">
+<span class="text-[10px] text-primary block">UNIT_04</span>
+<span class="text-[8px] text-white block">ALT: 400ft | SPD: 45kn</span>
+</div>
+</div>
+<div class="absolute top-[45%] left-[42%] w-2 h-2 bg-primary rounded-full shadow-glow opacity-80 z-20"></div>
+<div class="absolute top-[60%] left-[60%] w-2 h-2 bg-primary rounded-full shadow-glow opacity-80 z-20"></div>
+<div class="absolute top-[35%] left-[48%] w-2 h-2 bg-primary rounded-full shadow-glow opacity-80 z-20"></div>
+<div class="absolute top-[52%] left-[38%] w-2 h-2 bg-secondary rounded-full opacity-60 z-20"></div>
+<div class="absolute top-[38%] left-[62%] w-2 h-2 bg-primary rounded-full shadow-glow opacity-90 z-20"></div>
+<div class="absolute top-[25%] left-[50%] w-2 h-2 bg-primary rounded-full shadow-glow opacity-70 z-20"></div>
+<div class="absolute top-[70%] left-[45%] w-3 h-3 bg-red-500 rounded-full shadow-[0_0_10px_rgba(239,68,68,0.5)] animate-pulse cursor-pointer group/enemy z-20">
+<div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/90 border border-red-900 px-2 py-1 hidden group-hover/enemy:block whitespace-nowrap z-50 rounded">
+<span class="text-[10px] text-red-500 block">HOSTILE_SIG</span>
+<span class="text-[8px] text-white block">CLASS: UNKNOWN</span>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 z-10 font-mono text-xs">
+<div class="flex items-end gap-1 text-secondary opacity-70">
+<span>SCALE</span>
+<div class="h-px w-16 bg-secondary mb-1"></div>
+<span>5KM</span>
+</div>
+</div>
+<div class="absolute top-4 right-4 z-10 flex gap-1 bg-black/50 p-1 rounded backdrop-blur">
+<button class="px-3 py-1 bg-primary/20 text-primary text-[10px] font-bold rounded hover:bg-primary/30 uppercase">Thermal</button>
+<button class="px-3 py-1 text-secondary text-[10px] font-bold rounded hover:bg-white/5 uppercase">Optical</button>
+<button class="px-3 py-1 text-secondary text-[10px] font-bold rounded hover:bg-white/5 uppercase">Sonar</button>
+</div>
+</div>
+</section>
+<aside class="flex-[0.35] bg-background-dark flex flex-col min-w-[320px] border-l border-grid-line">
+<div class="p-5 border-b border-grid-line bg-card-bg/30">
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-sm font-bold text-white tracking-widest flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">monitor_heart</span>
+                        SWARM VITALS
+                    </h2>
+<span class="text-[10px] text-primary border border-primary/30 px-2 py-0.5 rounded-full bg-primary/5">OPTIMAL</span>
+</div>
+<div class="space-y-4">
+<div class="group">
+<div class="flex justify-between text-xs mb-1">
+<span class="text-secondary group-hover:text-primary transition-colors">INTEGRITY</span>
+<span class="text-white font-mono">98%</span>
+</div>
+<div class="h-1.5 w-full bg-grid-line rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[98%] shadow-glow-sm"></div>
+</div>
+</div>
+<div class="group">
+<div class="flex justify-between text-xs mb-1">
+<span class="text-secondary group-hover:text-primary transition-colors">POWER RESERVES</span>
+<span class="text-white font-mono">74%</span>
+</div>
+<div class="h-1.5 w-full bg-grid-line rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-[74%]"></div>
+</div>
+<p class="text-[10px] text-secondary mt-1 font-mono text-right">EST. RUNTIME: 4H 20M</p>
+</div>
+<div class="group">
+<div class="flex justify-between text-xs mb-1">
+<span class="text-secondary group-hover:text-primary transition-colors">SIGNAL STRENGTH</span>
+<span class="text-white font-mono">45%</span>
+</div>
+<div class="h-1.5 w-full bg-grid-line rounded-full overflow-hidden">
+<div class="h-full bg-yellow-500 w-[45%]"></div>
+</div>
+<p class="text-[10px] text-yellow-500/80 mt-1 font-mono text-right flex items-center justify-end gap-1">
+<span class="material-symbols-outlined text-[10px]">warning</span> INTERFERENCE DETECTED
+                        </p>
+</div>
+</div>
+</div>
+<div class="flex-1 flex flex-col overflow-hidden">
+<div class="px-5 py-3 border-b border-grid-line bg-card-bg/20 flex justify-between items-center">
+<h3 class="text-xs font-bold text-secondary uppercase tracking-wider">Active Nodes (12)</h3>
+<button class="text-[10px] text-primary hover:text-white underline">VIEW ALL</button>
+</div>
+<div class="overflow-y-auto flex-1 p-2 space-y-1">
+<div class="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer border border-transparent hover:border-primary/20 transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-1.5 h-1.5 rounded-full bg-primary shadow-glow"></div>
+<div>
+<p class="text-xs font-bold text-white group-hover:text-primary">UNIT_01</p>
+<p class="text-[10px] text-secondary font-mono">IDLE // STBY</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-[10px] text-secondary">BAT: 92%</p>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer border border-transparent hover:border-primary/20 transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-1.5 h-1.5 rounded-full bg-primary shadow-glow"></div>
+<div>
+<p class="text-xs font-bold text-white group-hover:text-primary">UNIT_04</p>
+<p class="text-[10px] text-primary font-mono animate-pulse">ENGAGED</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-[10px] text-secondary">BAT: 88%</p>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer border border-transparent hover:border-primary/20 transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-1.5 h-1.5 rounded-full bg-red-500"></div>
+<div>
+<p class="text-xs font-bold text-white group-hover:text-red-400">UNIT_07</p>
+<p class="text-[10px] text-red-400 font-mono">OFFLINE</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-[10px] text-secondary">BAT: 0%</p>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded hover:bg-white/5 cursor-pointer border border-transparent hover:border-primary/20 transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-1.5 h-1.5 rounded-full bg-primary shadow-glow"></div>
+<div>
+<p class="text-xs font-bold text-white group-hover:text-primary">UNIT_09</p>
+<p class="text-[10px] text-secondary font-mono">PATROL</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-[10px] text-secondary">BAT: 64%</p>
+</div>
+</div>
+</div>
+</div>
+<div class="h-1/3 border-t border-grid-line bg-black flex flex-col">
+<div class="px-3 py-2 border-b border-grid-line/50 bg-[#0d1014] flex justify-between items-center">
+<span class="text-[10px] font-mono text-secondary uppercase">System Log</span>
+<div class="flex gap-1">
+<div class="w-2 h-2 rounded-full bg-red-500/20"></div>
+<div class="w-2 h-2 rounded-full bg-yellow-500/20"></div>
+<div class="w-2 h-2 rounded-full bg-green-500/50"></div>
+</div>
+</div>
+<div class="flex-1 p-3 overflow-y-auto font-mono text-[11px] leading-relaxed text-secondary/80">
+<div class="mb-1"><span class="text-primary/50">[14:02:01]</span> SYS_INIT_SEQUENCE_START</div>
+<div class="mb-1"><span class="text-primary/50">[14:02:02]</span> LOADING_MODULES... <span class="text-green-400">OK</span></div>
+<div class="mb-1"><span class="text-primary/50">[14:02:05]</span> UNIT_04: CONNECTION ESTABLISHED</div>
+<div class="mb-1"><span class="text-primary/50">[14:02:08]</span> SWARM_SYNC: 12 NODES LINKED</div>
+<div class="mb-1"><span class="text-primary/50">[14:03:15]</span> <span class="text-yellow-400">WARN:</span> SIGNAL DEGRADATION SECTOR 7</div>
+<div class="mb-1"><span class="text-primary/50">[14:03:42]</span> UNIT_07: CONNECTION LOST</div>
+<div class="mb-1"><span class="text-primary/50">[14:04:00]</span> REROUTING MESH NETWORK...</div>
+<div class="mb-1 text-primary"><span class="text-primary/50">[14:04:02]</span> OPTIMIZATION COMPLETE</div>
+<div class="mb-1 animate-pulse"><span class="text-primary/50">[14:04:05]</span> AWAITING COMMAND_</div>
+</div>
+</div>
+</aside>
 </main>
-
-<footer>
-    <span>UPTIME: <span id="uptime">00:00:00</span></span>
-    <span>BANDWIDTH: 42 kbps</span>
-    <span>PACKETS: <span id="packets">0</span></span>
+<footer class="h-[30px] bg-background-dark border-t border-grid-line shrink-0 flex items-center justify-between px-4 text-[10px] font-mono relative z-20">
+<div class="flex items-center gap-4 text-secondary/50 w-1/3 overflow-hidden whitespace-nowrap mask-gradient">
+<span>0x4F 0xA2 0x1C 0x99 0x00 0xFF 0xE2 0x11 0x43 0x9A 0xBC 0xDE 0xF0</span>
+</div>
+<div class="flex-1 flex justify-center">
+<div class="flex items-center bg-card-bg border border-grid-line rounded px-2 w-[300px] h-[22px]">
+<span class="text-primary mr-2">&gt;_</span>
+<input class="bg-transparent border-none outline-none text-white w-full h-full p-0 text-[10px] font-mono placeholder-secondary/30 focus:ring-0" placeholder="ENTER COMMAND..." type="text"/>
+<div class="w-1.5 h-3 bg-primary animate-blink ml-1"></div>
+</div>
+</div>
+<div class="flex items-center gap-4 w-1/3 justify-end">
+<span class="text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[10px]">lock</span>
+                ENCRYPTION: AES-256
+            </span>
+<span class="text-primary font-bold">SECURE</span>
+</div>
 </footer>
-
-<script>
-    // Configuration
-    const NUM_AGENTS = 10;
-    const UPDATE_INTERVAL = 100; // 10Hz
-
-    // State
-    let agentStates = new Array(NUM_AGENTS).fill("FOLLOWER"); // FOLLOWER, LEADER, DEAD
-    let systemMode = "NORMAL";
-    let lastLogPosition = 0;
-    let packetCount = 0;
-    const startTime = Date.now();
-
-    // DOM Elements
-    const agentContainer = document.getElementById('agent-container');
-    const logView = document.getElementById('log-view');
-    const statusText = document.getElementById('status-text');
-    const statusLight = document.getElementById('status-light');
-    const header = document.getElementById('main-header');
-
-    // Initialize Agents visually
-    const agents = [];
-    const radius = 150;
-    const centerX = 200;
-    const centerY = 200;
-
-    for (let i = 0; i < NUM_AGENTS; i++) {
-        const el = document.createElement('div');
-        el.className = 'agent follower';
-        el.textContent = i;
-
-        // Position in circle
-        const angle = (2 * Math.PI * i) / NUM_AGENTS;
-        const x = centerX + radius * Math.cos(angle) - 10; // -10 for centering
-        const y = centerY + radius * Math.sin(angle) - 10;
-
-        el.style.left = `${x}px`;
-        el.style.top = `${y}px`;
-
-        agentContainer.appendChild(el);
-        agents.push(el);
-    }
-
-    // Connect Lines (Visual only)
-    // We draw canvas lines? For simplicity, skip complex lines or use SVG if needed.
-    // Let's rely on the "Radar" vibe for now.
-
-    async function fetchLogs() {
-        try {
-            const response = await fetch('/hell_test.log');
-            if (!response.ok) return;
-            const text = await response.text();
-
-            // Optimization: Process only new lines?
-            // For simple demo, we can re-process or slice.
-            // Since file grows, slicing is better. But text() returns full file.
-            // Let's split by newline.
-
-            const lines = text.split('\n');
-            const newLines = lines.slice(lastLogPosition);
-
-            if (newLines.length === 0) return;
-            lastLogPosition = lines.length;
-            packetCount += newLines.length;
-            document.getElementById('packets').textContent = packetCount;
-
-            newLines.forEach(processLine);
-            updateVisuals();
-
-        } catch (e) {
-            console.error("Log fetch error:", e);
-        }
-    }
-
-    function processLine(line) {
-        if (!line) return;
-
-        // Add to Log Panel
-        const div = document.createElement('div');
-        div.className = 'log-entry';
-
-        // Coloring
-        if (line.includes("WARNING") || line.includes("SECURITY")) {
-            div.className += ' log-warn';
-        } else if (line.includes("leader")) {
-            div.className += ' log-leader';
-        } else {
-            div.className += ' log-info';
-        }
-
-        div.textContent = `> ${line.substring(0, 100)}`; // Truncate for UI
-        logView.appendChild(div);
-        logView.scrollTop = logView.scrollHeight; // Auto scroll
-
-        // Logic Parsing
-        if (line.includes("ENTERING DEGRADED OPERATIONS MODE")) {
-            systemMode = "DEGRADED";
-        } else if (line.includes("RETURNING TO NORMAL OPERATIONS MODE")) {
-            systemMode = "NORMAL";
-        }
-
-        const killMatch = line.match(/Killed Agent (\d+)/);
-        if (killMatch) {
-            agentStates[parseInt(killMatch[1])] = "DEAD";
-        }
-
-        const agentMatch = line.match(/Agent-(\d+)/);
-        if (agentMatch) {
-            const id = parseInt(agentMatch[1]);
-            // Resurrection logic check
-            if (agentStates[id] === "DEAD") agentStates[id] = "FOLLOWER";
-
-            if (line.includes("Declaring victory. I am the leader")) {
-                // Reset other leaders
-                for(let i=0; i<NUM_AGENTS; i++) {
-                    if (agentStates[i] === "LEADER") agentStates[i] = "FOLLOWER";
-                }
-                agentStates[id] = "LEADER";
-            }
-        }
-    }
-
-    function updateVisuals() {
-        // Update Header Status
-        if (systemMode === "DEGRADED") {
-            statusText.textContent = "MISSION CONTINUITY MODE (DEGRADED)";
-            statusText.style.color = "red";
-            statusLight.style.backgroundColor = "red";
-            header.classList.add('alert-mode');
-        } else {
-            statusText.textContent = "NORMAL OPERATIONS";
-            statusText.style.color = "#00ff00";
-            statusLight.style.backgroundColor = "#00ff00";
-            header.classList.remove('alert-mode');
-        }
-
-        // Update Agents
-        agents.forEach((el, i) => {
-            el.className = `agent ${agentStates[i].toLowerCase()}`;
-        });
-    }
-
-    function updateUptime() {
-        const now = Date.now();
-        const diff = Math.floor((now - startTime) / 1000);
-        const h = Math.floor(diff / 3600).toString().padStart(2, '0');
-        const m = Math.floor((diff % 3600) / 60).toString().padStart(2, '0');
-        const s = (diff % 60).toString().padStart(2, '0');
-        document.getElementById('uptime').textContent = `${h}:${m}:${s}`;
-    }
-
-    // Loop
-    setInterval(fetchLogs, UPDATE_INTERVAL);
-    setInterval(updateUptime, 1000);
-
-</script>
-</body>
-</html>
+</body></html>
