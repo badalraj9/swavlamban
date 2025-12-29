@@ -1,0 +1,57 @@
+{
+  "attack_surface": {
+    "message_types": ["ELECTION", "ANSWER", "COORDINATOR", "CBAA_UPDATE", "HEARTBEAT"],
+    "timeouts": {
+      "leader_timeout": 2.0,
+      "election_timeout": 1.0,
+      "neighbor_timeout": 2.0,
+      "cycle_time": 0.1
+    },
+    "critical_sections": [
+      "SwarmAgent.update_state (Combined Logic)",
+      "BullyAgent.handle_message (State Transition)",
+      "CbaaAgent.update_state (Bid Calculation)"
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "description": "Rapid leader death causes election loop",
+      "impact": 10,
+      "likelihood": 8,
+      "detectability": 5,
+      "priority": 16.0
+    },
+    {
+      "id": "H2",
+      "description": "Packet loss > 30% prevents CBAA convergence",
+      "impact": 8,
+      "likelihood": 7,
+      "detectability": 8,
+      "priority": 7.0
+    },
+    {
+      "id": "H3",
+      "description": "Dead node not detected if Heartbeats dropped",
+      "impact": 9,
+      "likelihood": 6,
+      "detectability": 4,
+      "priority": 13.5
+    },
+    {
+      "id": "H4",
+      "description": "Message flood causes queue overflow (Memory Leak)",
+      "impact": 7,
+      "likelihood": 5,
+      "detectability": 9,
+      "priority": 3.8
+    }
+  ],
+  "test_plan": [
+    "Test 1.1: Rapid Leader Cascading Failure",
+    "Test 2.1: Task Avalanche (500 tasks)",
+    "Test 2.2: Packet Loss Ladder (0-50%)",
+    "Test 3.1: Simultaneous Task Claim (Race)",
+    "Test 4.1: Message Flood"
+  ]
+}
