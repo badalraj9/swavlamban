@@ -6,7 +6,7 @@ import json
 from src.utils.message import Message
 
 class Simulator:
-    def __init__(self, num_agents: int):
+    def __init__(self, num_agents: int, drop_rate=0.0, min_latency=0.0, max_latency=0.0):
         self.num_agents = num_agents
         self.queues = {} # agent_id -> (incoming_queue, outgoing_queue)
         self.processes = []
@@ -14,22 +14,38 @@ class Simulator:
         self.logger = logging.getLogger("Simulator")
         # logging.basicConfig(level=logging.INFO)
 
+        # Network parameters
+        self.drop_rate = drop_rate
+        self.min_latency = min_latency
+        self.max_latency = max_latency
+        self.delayed_messages = [] # (delivery_time, msg)
+
         # Central switchboard
         self.switchboard_queue = multiprocessing.Queue()
 
-    def setup_agents(self, AgentClass):
+    def setup_agents(self, AgentClass, agent_capabilities=None):
         for i in range(self.num_agents):
             incoming = multiprocessing.Queue()
             self.queues[i] = incoming
 
+            # Support caps if passed, else default
+            caps = agent_capabilities.get(i, []) if agent_capabilities else []
+
+            # Check constructor signature (hacky)
+            # We assume SwarmAgent signature
             p = multiprocessing.Process(
                 target=self._run_agent,
-                args=(AgentClass, i, incoming, self.switchboard_queue)
+                args=(AgentClass, i, incoming, self.switchboard_queue, caps)
             )
             self.processes.append(p)
 
-    def _run_agent(self, AgentClass, agent_id, incoming, outgoing):
-        agent = AgentClass(agent_id, incoming, outgoing)
+    def _run_agent(self, AgentClass, agent_id, incoming, outgoing, caps):
+        # Try creating with caps, fallback if fails (for backward compat with older agents)
+        try:
+            agent = AgentClass(agent_id, incoming, outgoing, capabilities=caps)
+        except TypeError:
+            agent = AgentClass(agent_id, incoming, outgoing)
+
         try:
             agent.run()
         except KeyboardInterrupt:
@@ -52,14 +68,34 @@ class Simulator:
         """Runs the switchboard for a duration."""
         start_time = time.time()
         while time.time() - start_time < duration:
-            # Process network
+            now = time.time()
+
+            # 1. Process new messages from agents
             while not self.switchboard_queue.empty():
                 try:
                     msg_json = self.switchboard_queue.get_nowait()
                     msg = Message.from_json(msg_json)
-                    self._deliver_message(msg)
+
+                    # Chaos: Packet Loss
+                    if random.random() < self.drop_rate:
+                        continue
+
+                    # Chaos: Latency
+                    latency = random.uniform(self.min_latency, self.max_latency)
+                    delivery_time = now + latency
+                    self.delayed_messages.append((delivery_time, msg))
                 except Exception:
                     pass
+
+            # 2. Deliver ready messages
+            remaining_messages = []
+            for deliver_t, msg in self.delayed_messages:
+                if now >= deliver_t:
+                    self._deliver_message(msg)
+                else:
+                    remaining_messages.append((deliver_t, msg))
+            self.delayed_messages = remaining_messages
+
             time.sleep(0.01)
 
     def kill_agent(self, agent_id):
@@ -74,8 +110,6 @@ class Simulator:
         if msg.receiver_id == -1: # Broadcast
             for aid, q in self.queues.items():
                 if aid != msg.sender_id:
-                    # Check if process is alive before queuing?
-                    # For now just queue, dead agent won't read.
                     q.put(msg.to_json())
         elif msg.receiver_id in self.queues:
             self.queues[msg.receiver_id].put(msg.to_json())
