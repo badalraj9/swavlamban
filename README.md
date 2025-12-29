@@ -17,7 +17,7 @@ Unlike typical distributed systems that optimize for throughput, SWARM-01 is opt
 ## 🏗️ Architecture
 
 -   **Backend (`src/`)**: Pure Python implementation of Bully Algorithm and CBAA. Dependency-free core.
--   **Frontend (`frontend/`)**: Optional, decoupled visualization tool for monitoring swarm state via logs.
+-   **Frontend (`frontend/`)**: HTML5/JS "Command Interface" for real-time visualization.
 -   **Communication**: Asynchronous Event-Driven Loop (10Hz guaranteed).
 
 ## 📂 Documentation
@@ -52,14 +52,16 @@ python3 tests/hell_runner.py
 
 This generates a `hell_test.log` file containing the operational history.
 
-### 2. Running the Visualization (Frontend) - Optional
-To view a real-time (or replay) dashboard of the swarm status:
+### 2. Running the Visualization (Frontend)
+To open the "SWARM COMMAND INTERFACE" dashboard:
 
 ```bash
-python3 frontend/visualizer.py
+python3 frontend/serve.py
 ```
 
-*Note: The frontend is strictly a visualization layer. It reads the log file produced by the backend and does not affect the swarm's operation, ensuring the "headless" constraints are respected.*
+Then open your browser to: **http://localhost:8000**
+
+*Note: The frontend is a read-only visualization layer. It reads the log file produced by the backend and does not affect the swarm's operation.*
 
 ## 📜 License
 Unclassified / Open Source for Swavlamban 2025.

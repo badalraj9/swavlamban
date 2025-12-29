@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWARM-01 COMMAND INTERFACE</title>
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --grid-color: #1f2833;
+            --text-primary: #66fcf1; /* Cyan */
+            --text-secondary: #45a29e; /* Teal */
+            --text-alert: #ff0000; /* Red */
+            --text-log: #c5c6c7; /* White/Grey */
+            --agent-follower: #00ffff;
+            --agent-leader: #ff0000;
+            --agent-dead: #333333;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* HEADER */
+        header {
+            height: 50px;
+            border-bottom: 2px solid var(--text-secondary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            background: rgba(11, 12, 16, 0.9);
+            z-index: 10;
+        }
+        .brand {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            animation: pulse 2s infinite;
+        }
+        .status-panel {
+            font-size: 1rem;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        /* MAIN CONTENT */
+        main {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* RADAR MAP (LEFT) */
+        #radar-view {
+            flex: 2;
+            position: relative;
+            border-right: 1px solid var(--grid-color);
+            background: radial-gradient(circle at center, #1f2833 0%, #0b0c10 70%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Grid Overlay */
+        .grid-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(var(--grid-color) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.2;
+            pointer-events: none;
+        }
+
+        .radar-sweep {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: conic-gradient(from 0deg, transparent 0deg, rgba(102, 252, 241, 0.1) 60deg, transparent 61deg);
+            animation: sweep 4s linear infinite;
+            pointer-events: none;
+        }
+
+        /* Agents */
+        .agent {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: black;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px currentColor;
+        }
+        .agent.follower { background-color: var(--agent-follower); color: black; }
+        .agent.leader {
+            background-color: var(--agent-leader);
+            width: 30px; height: 30px;
+            border: 2px solid white;
+            z-index: 10;
+        }
+        .agent.dead { background-color: var(--agent-dead); box-shadow: none; color: #555; }
+
+        /* TELEMETRY LOG (RIGHT) */
+        #log-view {
+            flex: 1;
+            background-color: #000;
+            padding: 10px;
+            overflow-y: auto;
+            font-size: 0.8rem;
+            border-left: 2px solid var(--grid-color);
+            display: flex;
+            flex-direction: column;
+        }
+        .log-entry {
+            margin-bottom: 2px;
+            word-wrap: break-word;
+        }
+        .log-timestamp { color: var(--text-secondary); margin-right: 5px; }
+        .log-info { color: var(--text-log); }
+        .log-warn { color: var(--text-alert); font-weight: bold; }
+        .log-leader { color: yellow; }
+
+        /* FOOTER */
+        footer {
+            height: 25px;
+            background-color: var(--grid-color);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            font-size: 0.7rem;
+            justify-content: space-between;
+        }
+
+        /* Animations */
+        @keyframes sweep {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes pulse {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; text-shadow: 0 0 10px var(--text-primary); }
+            100% { opacity: 0.8; }
+        }
+        @keyframes alert-blink {
+            0% { background-color: var(--bg-color); }
+            50% { background-color: #330000; }
+            100% { background-color: var(--bg-color); }
+        }
+
+        .alert-mode {
+            animation: alert-blink 1s infinite;
+        }
+
+    </style>
+</head>
+<body>
+
+<header id="main-header">
+    <div class="brand">> SWARM-01 // COMMAND LINK</div>
+    <div class="status-panel">
+        <span class="status-indicator" id="status-light" style="background-color: #00ff00;"></span>
+        <span id="status-text">NORMAL OPERATIONS</span>
+    </div>
+</header>
+
+<main>
+    <div id="radar-view">
+        <div class="grid-overlay"></div>
+        <div class="radar-sweep"></div>
+        <!-- Agents injected via JS -->
+        <div id="agent-container" style="position: relative; width: 400px; height: 400px;">
+        </div>
+    </div>
+    <div id="log-view">
+        <div class="log-entry">> SYSTEM BOOT... LISTENING FOR TELEMETRY...</div>
+    </div>
+</main>
+
+<footer>
+    <span>UPTIME: <span id="uptime">00:00:00</span></span>
+    <span>BANDWIDTH: 42 kbps</span>
+    <span>PACKETS: <span id="packets">0</span></span>
+</footer>
+
+<script>
+    // Configuration
+    const NUM_AGENTS = 10;
+    const UPDATE_INTERVAL = 100; // 10Hz
+
+    // State
+    let agentStates = new Array(NUM_AGENTS).fill("FOLLOWER"); // FOLLOWER, LEADER, DEAD
+    let systemMode = "NORMAL";
+    let lastLogPosition = 0;
+    let packetCount = 0;
+    const startTime = Date.now();
+
+    // DOM Elements
+    const agentContainer = document.getElementById('agent-container');
+    const logView = document.getElementById('log-view');
+    const statusText = document.getElementById('status-text');
+    const statusLight = document.getElementById('status-light');
+    const header = document.getElementById('main-header');
+
+    // Initialize Agents visually
+    const agents = [];
+    const radius = 150;
+    const centerX = 200;
+    const centerY = 200;
+
+    for (let i = 0; i < NUM_AGENTS; i++) {
+        const el = document.createElement('div');
+        el.className = 'agent follower';
+        el.textContent = i;
+
+        // Position in circle
+        const angle = (2 * Math.PI * i) / NUM_AGENTS;
+        const x = centerX + radius * Math.cos(angle) - 10; // -10 for centering
+        const y = centerY + radius * Math.sin(angle) - 10;
+
+        el.style.left = `${x}px`;
+        el.style.top = `${y}px`;
+
+        agentContainer.appendChild(el);
+        agents.push(el);
+    }
+
+    // Connect Lines (Visual only)
+    // We draw canvas lines? For simplicity, skip complex lines or use SVG if needed.
+    // Let's rely on the "Radar" vibe for now.
+
+    async function fetchLogs() {
+        try {
+            const response = await fetch('/hell_test.log');
+            if (!response.ok) return;
+            const text = await response.text();
+
+            // Optimization: Process only new lines?
+            // For simple demo, we can re-process or slice.
+            // Since file grows, slicing is better. But text() returns full file.
+            // Let's split by newline.
+
+            const lines = text.split('\n');
+            const newLines = lines.slice(lastLogPosition);
+
+            if (newLines.length === 0) return;
+            lastLogPosition = lines.length;
+            packetCount += newLines.length;
+            document.getElementById('packets').textContent = packetCount;
+
+            newLines.forEach(processLine);
+            updateVisuals();
+
+        } catch (e) {
+            console.error("Log fetch error:", e);
+        }
+    }
+
+    function processLine(line) {
+        if (!line) return;
+
+        // Add to Log Panel
+        const div = document.createElement('div');
+        div.className = 'log-entry';
+
+        // Coloring
+        if (line.includes("WARNING") || line.includes("SECURITY")) {
+            div.className += ' log-warn';
+        } else if (line.includes("leader")) {
+            div.className += ' log-leader';
+        } else {
+            div.className += ' log-info';
+        }
+
+        div.textContent = `> ${line.substring(0, 100)}`; // Truncate for UI
+        logView.appendChild(div);
+        logView.scrollTop = logView.scrollHeight; // Auto scroll
+
+        // Logic Parsing
+        if (line.includes("ENTERING DEGRADED OPERATIONS MODE")) {
+            systemMode = "DEGRADED";
+        } else if (line.includes("RETURNING TO NORMAL OPERATIONS MODE")) {
+            systemMode = "NORMAL";
+        }
+
+        const killMatch = line.match(/Killed Agent (\d+)/);
+        if (killMatch) {
+            agentStates[parseInt(killMatch[1])] = "DEAD";
+        }
+
+        const agentMatch = line.match(/Agent-(\d+)/);
+        if (agentMatch) {
+            const id = parseInt(agentMatch[1]);
+            // Resurrection logic check
+            if (agentStates[id] === "DEAD") agentStates[id] = "FOLLOWER";
+
+            if (line.includes("Declaring victory. I am the leader")) {
+                // Reset other leaders
+                for(let i=0; i<NUM_AGENTS; i++) {
+                    if (agentStates[i] === "LEADER") agentStates[i] = "FOLLOWER";
+                }
+                agentStates[id] = "LEADER";
+            }
+        }
+    }
+
+    function updateVisuals() {
+        // Update Header Status
+        if (systemMode === "DEGRADED") {
+            statusText.textContent = "MISSION CONTINUITY MODE (DEGRADED)";
+            statusText.style.color = "red";
+            statusLight.style.backgroundColor = "red";
+            header.classList.add('alert-mode');
+        } else {
+            statusText.textContent = "NORMAL OPERATIONS";
+            statusText.style.color = "#00ff00";
+            statusLight.style.backgroundColor = "#00ff00";
+            header.classList.remove('alert-mode');
+        }
+
+        // Update Agents
+        agents.forEach((el, i) => {
+            el.className = `agent ${agentStates[i].toLowerCase()}`;
+        });
+    }
+
+    function updateUptime() {
+        const now = Date.now();
+        const diff = Math.floor((now - startTime) / 1000);
+        const h = Math.floor(diff / 3600).toString().padStart(2, '0');
+        const m = Math.floor((diff % 3600) / 60).toString().padStart(2, '0');
+        const s = (diff % 60).toString().padStart(2, '0');
+        document.getElementById('uptime').textContent = `${h}:${m}:${s}`;
+    }
+
+    // Loop
+    setInterval(fetchLogs, UPDATE_INTERVAL);
+    setInterval(updateUptime, 1000);
+
+</script>
+</body>
+</html>

@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+import matplotlib.gridspec as gridspec
 import re
 import time
 import os
-import argparse
+import math
 
 # Configuration
 LOG_FILE = "hell_test.log"
@@ -20,6 +21,16 @@ RE_KILLED = re.compile(r"Killed Agent (\d+)")
 agent_states = {i: "FOLLOWER" for i in range(NUM_AGENTS)} # FOLLOWER, LEADER, DEAD
 system_mode = "NORMAL" # NORMAL, DEGRADED
 log_lines_buffer = []
+
+# Theme Colors (Hacker Vibe)
+COLOR_BG = '#000000'
+COLOR_TEXT_NORMAL = '#00FF00' # Matrix Green
+COLOR_TEXT_DEGRADED = '#FFB000' # Amber
+COLOR_FOLLOWER = '#00FFFF' # Cyan
+COLOR_LEADER = '#FF0000' # Red
+COLOR_DEAD = '#333333' # Dark Grey
+COLOR_GRID = '#003300' # Faint Green
+FONT_FAMILY = 'monospace'
 
 def parse_line(line):
     global system_mode
@@ -44,48 +55,50 @@ def parse_line(line):
     if agent_match:
         aid = int(agent_match.group(1))
 
-        # If agent speaks, it's alive (resurrection check)
         if agent_states[aid] == "DEAD":
              agent_states[aid] = "FOLLOWER"
 
         if RE_LEADER_VICTORY.search(line):
-            # Reset others to follower? Ideally yes, but let's just mark this one
-            # The backend makes others followers. We can't easily see that in logs
-            # without parsing "FOLLOWER" transitions which aren't explicitly logged in standard flow.
-            # Visual hack: Make this one leader, others followers (unless dead)
             for i in range(NUM_AGENTS):
                 if agent_states[i] == "LEADER":
                     agent_states[i] = "FOLLOWER"
             agent_states[aid] = "LEADER"
 
 def update(frame):
-    # Read new lines
     global file_handle
-    where = file_handle.tell()
+
+    # Read new lines
     line = file_handle.readline()
     while line:
         parse_line(line)
-        log_lines_buffer.append(line.strip())
-        if len(log_lines_buffer) > 5:
+        clean_line = line.strip()
+        log_lines_buffer.append(clean_line)
+        if len(log_lines_buffer) > 25:
             log_lines_buffer.pop(0)
         line = file_handle.readline()
 
     # Clear and Redraw
-    ax.clear()
+    ax_map.clear()
+    ax_log.clear()
 
-    # Background Color based on Mode
+    # Theme Setup
+    ax_map.set_facecolor(COLOR_BG)
+    ax_log.set_facecolor(COLOR_BG)
+    fig.patch.set_facecolor(COLOR_BG)
+
+    # Status Header
     if system_mode == "DEGRADED":
-        ax.set_facecolor('#fff3cd') # Yellowish warning
-        ax.set_title(f"SWARM STATUS: DEGRADED (MISSION CONTINUITY MODE)", color='red', weight='bold')
+        status_color = COLOR_TEXT_DEGRADED
+        status_text = "STATUS: CRITICAL / MISSION CONTINUITY MODE"
     else:
-        ax.set_facecolor('white')
-        ax.set_title(f"SWARM STATUS: NORMAL", color='green', weight='bold')
+        status_color = COLOR_TEXT_NORMAL
+        status_text = "STATUS: OPERATIONAL / NORMAL"
 
-    # Draw Agents
-    # Layout: Circle
-    import math
+    ax_map.set_title(f"SWARM COMMAND INTERFACE [v1.0]\n{status_text}",
+                     color=status_color, weight='bold', fontfamily=FONT_FAMILY, loc='left')
+
+    # Draw Agents (Radar View)
     radius = 10
-
     for i in range(NUM_AGENTS):
         angle = 2 * math.pi * i / NUM_AGENTS
         x = radius * math.cos(angle)
@@ -94,23 +107,25 @@ def update(frame):
         state = agent_states[i]
 
         if state == "LEADER":
-            color = 'red'
-            size = 300
-            marker = '*'
+            c = COLOR_LEADER
+            m = 'D' # Diamond
+            s = 150
+            lbl = f"LDR-{i}"
         elif state == "DEAD":
-            color = 'gray'
-            size = 100
-            marker = 'x'
-        else: # FOLLOWER
-            color = 'blue'
-            size = 100
-            marker = 'o'
+            c = COLOR_DEAD
+            m = 'X'
+            s = 100
+            lbl = f"KIA-{i}"
+        else:
+            c = COLOR_FOLLOWER
+            m = 'o'
+            s = 80
+            lbl = f"AGT-{i}"
 
-        ax.scatter(x, y, c=color, s=size, marker=marker)
-        ax.text(x, y+1.5, f"A{i}", ha='center')
+        ax_map.scatter(x, y, c=c, s=s, marker=m, edgecolors='white', linewidth=0.5)
+        ax_map.text(x, y+2, lbl, color=c, ha='center', fontsize=8, fontfamily=FONT_FAMILY)
 
-    # Connectivity Lines (Mesh)
-    # Draw faint lines between alive agents
+    # Connectivity Lines (Hacker Grid)
     alive_agents = [i for i, s in agent_states.items() if s != "DEAD"]
     for i in range(len(alive_agents)):
         for j in range(i+1, len(alive_agents)):
@@ -120,31 +135,37 @@ def update(frame):
             angle2 = 2 * math.pi * a2 / NUM_AGENTS
             x1, y1 = radius * math.cos(angle1), radius * math.sin(angle1)
             x2, y2 = radius * math.cos(angle2), radius * math.sin(angle2)
-            ax.plot([x1, x2], [y1, y2], color='gray', alpha=0.1)
+            ax_map.plot([x1, x2], [y1, y2], color=COLOR_GRID, alpha=0.3, linewidth=0.5)
 
-    ax.set_xlim(-15, 15)
-    ax.set_ylim(-15, 15)
-    ax.axis('off')
+    ax_map.set_xlim(-15, 15)
+    ax_map.set_ylim(-15, 15)
+    ax_map.axis('off')
 
-    # Text Log
-    log_text = "\n".join(log_lines_buffer)
-    ax.text(0, -14, log_text, ha='center', fontsize=8, family='monospace')
+    # Log Panel
+    ax_log.axis('off')
+    log_content = "\n".join(log_lines_buffer)
+    ax_log.text(0.02, 0.98, log_content, transform=ax_log.transAxes,
+                fontsize=7, color=COLOR_TEXT_NORMAL, fontfamily=FONT_FAMILY,
+                verticalalignment='top', wrap=True)
 
 # Setup
-fig, ax = plt.subplots(figsize=(8, 8))
+fig = plt.figure(figsize=(12, 6))
+gs = gridspec.GridSpec(1, 2, width_ratios=[2, 1])
+ax_map = plt.subplot(gs[0])
+ax_log = plt.subplot(gs[1])
+
 file_handle = None
 
 def main():
     global file_handle
 
-    # Ensure log file exists or wait for it
     print(f"Waiting for {LOG_FILE}...")
     while not os.path.exists(LOG_FILE):
         time.sleep(1)
 
     file_handle = open(LOG_FILE, 'r')
 
-    ani = animation.FuncAnimation(fig, update, interval=100) # 10Hz update
+    ani = animation.FuncAnimation(fig, update, interval=100)
     plt.show()
 
 if __name__ == "__main__":
