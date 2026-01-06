@@ -1,4 +1,4 @@
-from src.agents.base_agent import BaseAgent, AgentState
+from src.agents.base_agent import BaseAgent, AgentState, OperationalMode
 from src.utils.message import Message
 import time
 import random
@@ -44,17 +44,27 @@ class CbaaAgent(BaseAgent):
                     # self.last_change_time = current_time # Trigger update
 
         # 1. Auction Step (Greedy)
+        # MISSION CONTINUITY: If DEGRADED, freeze task reassignment.
+        # We assume "keep last stable ownership" means we don't try to win NEW tasks.
+        # But we must allow completing/releasing our own? (Not modeled here).
+        # We skip the bidding loop.
+
         changed = False
-        for j in range(self.num_tasks):
-            # If task is free or I can beat the bid
-            # Note: If I already own it (z[j] == me), I don't need to re-bid unless someone beat me (handled in merge)
-            # If I don't own it:
-            if self.z[j] != self.agent_id:
-                my_bid = self.calculate_bid(j)
-                if my_bid > self.y[j]:
-                    self.y[j] = my_bid
-                    self.z[j] = self.agent_id
-                    changed = True
+
+        if self.mode == OperationalMode.NORMAL:
+            for j in range(self.num_tasks):
+                # If task is free or I can beat the bid
+                # Note: If I already own it (z[j] == me), I don't need to re-bid unless someone beat me (handled in merge)
+                # If I don't own it:
+                if self.z[j] != self.agent_id:
+                    my_bid = self.calculate_bid(j)
+                    if my_bid > self.y[j]:
+                        self.y[j] = my_bid
+                        self.z[j] = self.agent_id
+                        changed = True
+        else:
+            # DEGRADED MODE: Freeze. Do nothing.
+            pass
 
         if changed:
             self.last_change_time = current_time
@@ -82,6 +92,16 @@ class CbaaAgent(BaseAgent):
 
             changed = False
             for j in range(self.num_tasks):
+                # Advisory Check: If we are assigned a task by someone else
+                if neighbor_z[j] == self.agent_id and self.z[j] != self.agent_id:
+                    # Check Capabilities (Stub: assumed passed if calculate_bid works, but we can verify)
+                    # Check Mode: If DEGRADED, do we accept new work?
+                    # "Mission continuity... keep last stable ownership".
+                    # If we are assigned a NEW task in DEGRADED mode, we might refuse (by not updating local state).
+                    if self.mode == OperationalMode.DEGRADED:
+                        # Refuse assignment locally (implicitly)
+                        continue
+
                 # Max-Consensus Rule
                 if neighbor_y[j] > self.y[j]:
                     self.y[j] = neighbor_y[j]
